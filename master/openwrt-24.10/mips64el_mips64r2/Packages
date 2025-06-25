@@ -1,12 +1,12 @@
 Package: shared-state-async
-Version: 2024.05.13~db58e3d1-r1
+Version: 2024.05.13~db58e3d-r1
 Depends: libc, libstdcpp6
 License: AGPL-3.0
 Section: opt
 Architecture: mips64el_mips64r2
 Installed-Size: 358400
-Filename: shared-state-async_2024.05.13~db58e3d1-r1_mips64el_mips64r2.ipk
-Size: 105890
-SHA256sum: 82ba88cf43cf746000cc1e989bd0ccf14fb5533cff587f0e3298f9d1a74abef5
+Filename: shared-state-async_2024.05.13~db58e3d-r1_mips64el_mips64r2.ipk
+Size: 105873
+SHA256sum: 97c6a4335865f220f371a3cfa1c5208950fd65bc1b13467761c7cdd90f4f0ff6
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

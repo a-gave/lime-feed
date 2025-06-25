@@ -1,12 +1,12 @@
 Package: shared-state-async
-Version: 2024.05.13~db58e3d1-r1
+Version: 2024.05.13~db58e3d-r1
 Depends: libc, libstdcpp6
 License: AGPL-3.0
 Section: opt
 Architecture: armeb_xscale
 Installed-Size: 225280
-Filename: shared-state-async_2024.05.13~db58e3d1-r1_armeb_xscale.ipk
-Size: 93838
-SHA256sum: f41919fdd95f4e3f883963b5b7f55051685d9481c8941fed1ce1bb6ba3d8cf60
+Filename: shared-state-async_2024.05.13~db58e3d-r1_armeb_xscale.ipk
+Size: 93842
+SHA256sum: 7f66ee539759020be0e571fd5eaf2fb06afb9e2547ee34ecf20ba1d094d68a42
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

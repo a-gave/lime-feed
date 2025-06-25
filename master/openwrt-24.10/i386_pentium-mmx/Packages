@@ -1,12 +1,12 @@
 Package: shared-state-async
-Version: 2024.05.13~db58e3d1-r1
+Version: 2024.05.13~db58e3d-r1
 Depends: libc, libstdcpp6
 License: AGPL-3.0
 Section: opt
 Architecture: i386_pentium-mmx
 Installed-Size: 225280
-Filename: shared-state-async_2024.05.13~db58e3d1-r1_i386_pentium-mmx.ipk
-Size: 94388
-SHA256sum: 77b1bd5cc86b93bc39ba23074f5640f28ad8b13a4dd6d8437a5863857dc18833
+Filename: shared-state-async_2024.05.13~db58e3d-r1_i386_pentium-mmx.ipk
+Size: 94393
+SHA256sum: a725b6280a40c094d47ce1e11ad13fdcc6a6d6e723466ed2b05c6075b8d523da
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

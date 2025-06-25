@@ -1,12 +1,12 @@
 Package: shared-state-async
-Version: 2024.05.13~db58e3d1-r1
+Version: 2024.05.13~db58e3d-r1
 Depends: libc, libstdcpp6
 License: AGPL-3.0
 Section: opt
 Architecture: arm_cortex-a7
 Installed-Size: 215040
-Filename: shared-state-async_2024.05.13~db58e3d1-r1_arm_cortex-a7.ipk
-Size: 93007
-SHA256sum: 3aae4fa3a800e1498181696a5e2af551ef01a545a436f2c9629996e7597b669e
+Filename: shared-state-async_2024.05.13~db58e3d-r1_arm_cortex-a7.ipk
+Size: 93000
+SHA256sum: f46081c2f3f5955fdb8ce676aa25c7265b37d5a7819dd864217223a7f3ca5053
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 
