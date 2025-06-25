@@ -1,0 +1,16 @@
+Package: shared-state-async
+Version: 2024.05.13~db58e3d1-r1
+Depends: libc, libstdcpp6
+Source: /feed/packages/shared-state-async
+SourceName: shared-state-async
+License: AGPL-3.0
+Section: opt
+SourceDateEpoch: 1750857873
+Maintainer: Asociación Civil Altermundi <info@altermundi.net>
+Architecture: mips_mips32
+Installed-Size: 286720
+Filename: shared-state-async_2024.05.13~db58e3d1-r1_mips_mips32.ipk
+Size: 95785
+SHA256sum: b7594636aaf0ad2a5b82d3a7b922de9767e76d8684f7fbdb619d78f95d157f97
+Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
+
