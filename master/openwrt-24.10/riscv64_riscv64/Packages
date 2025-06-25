@@ -6,7 +6,7 @@ Section: opt
 Architecture: riscv64_riscv64
 Installed-Size: 225280
 Filename: shared-state-async_2024.05.13~db58e3d-r1_riscv64_riscv64.ipk
-Size: 102254
-SHA256sum: c452a35561cdb99adb0822bb23942080f72e1ff56e2463bddb6888e91a4deff9
+Size: 102253
+SHA256sum: 82ad4dda2c31e6448125b45918fe8661bc271bd0c962a3b5c5994a839eed7ce8
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

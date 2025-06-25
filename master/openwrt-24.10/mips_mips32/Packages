@@ -6,7 +6,7 @@ Section: opt
 Architecture: mips_mips32
 Installed-Size: 286720
 Filename: shared-state-async_2024.05.13~db58e3d-r1_mips_mips32.ipk
-Size: 95779
-SHA256sum: 99299f48debb7bebbfbe5d9d9bff7c17b8caffad750047cff4d9de4a0563fc07
+Size: 95764
+SHA256sum: b933028e4c4fd1067f715208731cac9d5b6f2b832b3b8fa08dbdcb7666ad7a83
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

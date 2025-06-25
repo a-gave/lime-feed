@@ -6,7 +6,7 @@ Section: opt
 Architecture: powerpc_464fp
 Installed-Size: 348160
 Filename: shared-state-async_2024.05.13~db58e3d-r1_powerpc_464fp.ipk
-Size: 105388
-SHA256sum: d537eec9daa5a86673c65d73961686177e77e9f68889b7269bbc7525e5e50b36
+Size: 105375
+SHA256sum: d15320a77742f147b9e6e6c1139d9a9a864d618b028f3609fcd8c810d9a8893f
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

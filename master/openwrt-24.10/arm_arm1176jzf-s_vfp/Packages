@@ -6,7 +6,7 @@ Section: opt
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 215040
 Filename: shared-state-async_2024.05.13~db58e3d-r1_arm_arm1176jzf-s_vfp.ipk
-Size: 92871
-SHA256sum: 67baf94755115df23e0c0b6d708ba660ea3b0c36d86b6936fe85a4e29900d125
+Size: 92874
+SHA256sum: e0c7b8cba4a9bd5e83e64e3bbe179eba9dee620eac369040ddf0ca3e415e5526
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

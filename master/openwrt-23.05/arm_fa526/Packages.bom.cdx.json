@@ -1,0 +1,1 @@
+{"bomFormat":"CycloneDX","serialNumber":"urn:uuid:43ef5487-1b94-4367-847d-407720279ea7","components":[{"name":"shared-state-async","type":"application","licenses":[{"license":{"name":"AGPL-3.0"}}],"version":"2024.05.13~db58e3d"}],"version":1,"metadata":{"timestamp":"2025-06-25T16:22:03Z"},"specVersion":"1.4"}

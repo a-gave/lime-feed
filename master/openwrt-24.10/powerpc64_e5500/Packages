@@ -6,7 +6,7 @@ Section: opt
 Architecture: powerpc64_e5500
 Installed-Size: 348160
 Filename: shared-state-async_2024.05.13~db58e3d-r1_powerpc64_e5500.ipk
-Size: 108413
-SHA256sum: 8bce4cc337d077bedf02758ccdb20b5e6cd95ebbdb2cf3f6e479d690a46d169b
+Size: 108407
+SHA256sum: a6284b31b0d89d84726e845f7627497101b3f36380e66429d99fa1f1016549f0
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

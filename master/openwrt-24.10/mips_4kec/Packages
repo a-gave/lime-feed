@@ -6,7 +6,7 @@ Section: opt
 Architecture: mips_4kec
 Installed-Size: 225280
 Filename: shared-state-async_2024.05.13~db58e3d-r1_mips_4kec.ipk
-Size: 83979
-SHA256sum: 4bc33d97b9d6fce0cc5eced67accb97f4216007a3bb0901e48e97b6338585fc7
+Size: 83977
+SHA256sum: 9c88129540f3b3dee8391d354f9362f222affee64a059d6128e60da254e312b7
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 
