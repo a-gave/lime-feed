@@ -6,7 +6,7 @@ Section: opt
 Architecture: arm_fa526
 Installed-Size: 225280
 Filename: shared-state-async_2024.05.13~db58e3d-r1_arm_fa526.ipk
-Size: 94404
-SHA256sum: c1e092ff9772691020dc889ce59016c1fd2a04e04d963bcba34ca37ad9760bae
+Size: 94397
+SHA256sum: 671fe3d73a93d1bf29f7eff5cb26d609a981d53a6aef4aea96389272c20b475f
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

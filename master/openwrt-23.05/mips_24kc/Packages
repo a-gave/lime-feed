@@ -4,9 +4,9 @@ Depends: libc, libstdcpp6
 License: AGPL-3.0
 Section: opt
 Architecture: mips_24kc
-Installed-Size: 83793
+Installed-Size: 83790
 Filename: shared-state-async_2024.05.13~db58e3d-1_mips_24kc.ipk
-Size: 84361
-SHA256sum: 4a629eed9cffa5fe0b1e22624cd9b65548f72240c39983a21f78481a055bcd85
+Size: 84357
+SHA256sum: 909c256da4a12b4e8ba00933ca7782d49c28209bb28bbae615358bdb87d7e1d7
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

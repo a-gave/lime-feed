@@ -4,9 +4,9 @@ Depends: libc, libstdcpp6
 License: AGPL-3.0
 Section: opt
 Architecture: arm_fa526
-Installed-Size: 93390
+Installed-Size: 93383
 Filename: shared-state-async_2024.05.13~db58e3d-1_arm_fa526.ipk
-Size: 93969
-SHA256sum: 61ea53a18d98ebc958b015bb886921f11dbafc40099794d7d8a1d325b22a8a7c
+Size: 93965
+SHA256sum: ec348145cd57a8135473c9b94e035f1d890f6cdca3c63d53114fefd00fee878b
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

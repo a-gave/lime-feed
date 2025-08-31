@@ -6,7 +6,7 @@ Section: opt
 Architecture: arm_arm926ej-s
 Installed-Size: 225280
 Filename: shared-state-async_2024.05.13~db58e3d-r1_arm_arm926ej-s.ipk
-Size: 94149
-SHA256sum: b68216aefd2bf7d6ff6f8c19eb8fba04f974bc43ee643d0e88eae13994ab28ba
+Size: 94139
+SHA256sum: c4bb015f5d25a72261560bcb72c17b8521af26563c09f4462c4196bc6bbd0b03
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

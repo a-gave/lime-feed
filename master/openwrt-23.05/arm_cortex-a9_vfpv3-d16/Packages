@@ -4,9 +4,9 @@ Depends: libc, libstdcpp6
 License: AGPL-3.0
 Section: opt
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 91794
+Installed-Size: 91792
 Filename: shared-state-async_2024.05.13~db58e3d-1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 92504
-SHA256sum: be110e36295f94ad9590049a9db37ad288496b561f2875470a70d066bcc3d04d
+Size: 92513
+SHA256sum: 8c65ba84f1204832f58035ce48cb4685197aa7e6f040e68f1b05ae7c2962cf01
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

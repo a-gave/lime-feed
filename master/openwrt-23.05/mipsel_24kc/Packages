@@ -4,9 +4,9 @@ Depends: libc, libstdcpp6
 License: AGPL-3.0
 Section: opt
 Architecture: mipsel_24kc
-Installed-Size: 83144
+Installed-Size: 82853
 Filename: shared-state-async_2024.05.13~db58e3d-1_mipsel_24kc.ipk
-Size: 83793
-SHA256sum: 2b8afc5fbefe9d6997222302c6bd290424397a7e7e0e9b779c55c47e919257ea
+Size: 83540
+SHA256sum: 3a308f97ba6758740176d679be74757c1328810642a4050686d162f6f77374d9
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

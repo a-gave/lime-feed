@@ -4,9 +4,9 @@ Depends: libc, libstdcpp6
 License: AGPL-3.0
 Section: opt
 Architecture: riscv64_riscv64
-Installed-Size: 101909
+Installed-Size: 101907
 Filename: shared-state-async_2024.05.13~db58e3d-1_riscv64_riscv64.ipk
-Size: 102717
-SHA256sum: bf82225ccb2d731a692ebb66138dda860d73e8e96b5f846305a2c989344d91d1
+Size: 102731
+SHA256sum: c35450945e1dc0e1d7c9560307edbb84663ceef7733d70af2db9881d8b506f1d
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

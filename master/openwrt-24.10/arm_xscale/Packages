@@ -6,7 +6,7 @@ Section: opt
 Architecture: arm_xscale
 Installed-Size: 225280
 Filename: shared-state-async_2024.05.13~db58e3d-r1_arm_xscale.ipk
-Size: 94261
-SHA256sum: f45568b53affc7883b693a29d0905dc4fd92e509826bfd02e1af8a5db825a0a1
+Size: 94265
+SHA256sum: 34af9721527b11cb14598f1b27db44d92696a4b25a909a568a875175c38f416a
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 
