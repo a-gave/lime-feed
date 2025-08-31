@@ -6,7 +6,7 @@ Section: opt
 Architecture: loongarch64_generic
 Installed-Size: 348160
 Filename: shared-state-async_2024.05.13~db58e3d-r1_loongarch64_generic.ipk
-Size: 141572
-SHA256sum: a36d4b0b43f5680f54d11dc50ae3de7bcd7c042ad61df3eecd5b52feccacacfb
+Size: 141582
+SHA256sum: 5bba092980f7a10d1f8278c3607549a42036804c7109b9da0278e93335e014c4
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

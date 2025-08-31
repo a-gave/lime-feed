@@ -6,7 +6,7 @@ Section: opt
 Architecture: arm_cortex-a7_vfpv4
 Installed-Size: 215040
 Filename: shared-state-async_2024.05.13~db58e3d-r1_arm_cortex-a7_vfpv4.ipk
-Size: 92466
-SHA256sum: 3e95a548d5a013b6449f1e35c030e7054dffdaa3dd1dd352a137e50590bdffbf
+Size: 92465
+SHA256sum: f415ec198a9f916c2f49d14079c183bd3ad7d9d136ecd2d1a4a93fc99ea7595b
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

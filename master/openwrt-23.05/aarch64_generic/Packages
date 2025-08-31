@@ -4,9 +4,9 @@ Depends: libc, libstdcpp6
 License: AGPL-3.0
 Section: opt
 Architecture: aarch64_generic
-Installed-Size: 98010
+Installed-Size: 98015
 Filename: shared-state-async_2024.05.13~db58e3d-1_aarch64_generic.ipk
-Size: 98591
-SHA256sum: 8220fe9109f5fdb538fd9bc8401ee2e1c89998c2c9fcc5bceecee2579e5f1b2a
+Size: 98617
+SHA256sum: ce296a0118df10556bad3fb61fa2fd68b5164f0d494bfc5e66070c287177eb55
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

@@ -6,7 +6,7 @@ Section: opt
 Architecture: mipsel_24kc_24kf
 Installed-Size: 225280
 Filename: shared-state-async_2024.05.13~db58e3d-r1_mipsel_24kc_24kf.ipk
-Size: 83585
-SHA256sum: 680eab535ed4c6d64b8c0ccf155cfa6e9eab49b1890d833fff2783f0f937f536
+Size: 83564
+SHA256sum: 62c9270df0912c6aa07d21b00988cbf9339ba05af7ff2265bab7154e798f48c8
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

@@ -4,9 +4,9 @@ Depends: libc, libstdcpp6
 License: AGPL-3.0
 Section: opt
 Architecture: aarch64_cortex-a53
-Installed-Size: 97748
+Installed-Size: 97752
 Filename: shared-state-async_2024.05.13~db58e3d-1_aarch64_cortex-a53.ipk
-Size: 98362
-SHA256sum: 09df179dfd7b1ef374b3072b7a61289b0e13332e80fedbdd7ccbb087e661831b
+Size: 98351
+SHA256sum: c7efc8476e6752e023269ffd71ba4b8704603edbc78d036bf0dc87554adc5a18
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

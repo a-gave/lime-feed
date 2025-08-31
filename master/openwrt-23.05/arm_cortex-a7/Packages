@@ -4,9 +4,9 @@ Depends: libc, libstdcpp6
 License: AGPL-3.0
 Section: opt
 Architecture: arm_cortex-a7
-Installed-Size: 92014
+Installed-Size: 92015
 Filename: shared-state-async_2024.05.13~db58e3d-1_arm_cortex-a7.ipk
-Size: 92740
-SHA256sum: 6e65fdc5d8347214c4645766ed87fb77a82f66d518ec5aee5ddb1f8c0d42028d
+Size: 92739
+SHA256sum: 3ec69a65b162563088bba18874e27dc92984f6b16892b612783d18daf09f90ae
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

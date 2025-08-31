@@ -4,9 +4,9 @@ Depends: libc, libstdcpp6
 License: AGPL-3.0
 Section: opt
 Architecture: i386_pentium-mmx
-Installed-Size: 93271
+Installed-Size: 93274
 Filename: shared-state-async_2024.05.13~db58e3d-1_i386_pentium-mmx.ipk
-Size: 94202
-SHA256sum: fdff271ba4096af69cbf776dac998525af1a152b939d7206c4568fcf38aab49d
+Size: 94207
+SHA256sum: 66de88f468670cf91d144938b07f4216fdfe92498b73b225aa5dfc37c717918d
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 
