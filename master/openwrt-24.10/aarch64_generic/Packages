@@ -6,7 +6,7 @@ Section: opt
 Architecture: aarch64_generic
 Installed-Size: 286720
 Filename: shared-state-async_2024.05.13~db58e3d-r1_aarch64_generic.ipk
-Size: 98576
-SHA256sum: 0551f4da1ceba27da537802aff5154dae26cdbc1b80b25c2abbc33ae6c968066
+Size: 98592
+SHA256sum: 4b95fc696cde5ca0b166d5de78d06c17fccef040016e5b39134586e48bfd8502
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

@@ -4,9 +4,9 @@ Depends: libc, libstdcpp6
 License: AGPL-3.0
 Section: opt
 Architecture: arm_mpcore
-Installed-Size: 92540
+Installed-Size: 92537
 Filename: shared-state-async_2024.05.13~db58e3d-1_arm_mpcore.ipk
-Size: 93341
-SHA256sum: ac0d11160f22c2c52aa122185686ac0ba14e14f10dc56049d47996819d2b63bb
+Size: 93335
+SHA256sum: 8a2c6638975b996d1c957111743dedecf8da8f84f9e006fa2ff409772f2316a9
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

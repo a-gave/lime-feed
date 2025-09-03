@@ -4,9 +4,9 @@ Depends: libc, libstdcpp6
 License: AGPL-3.0
 Section: opt
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 92079
+Installed-Size: 92080
 Filename: shared-state-async_2024.05.13~db58e3d-1_arm_arm1176jzf-s_vfp.ipk
-Size: 92836
-SHA256sum: 046e2144216d56af8e33cead2cba647b93ec74460b10d3ba332b7f5c14fc0fdc
+Size: 92828
+SHA256sum: ef9ac65957ae27afb3ea35417adfd34e06b94ed5e28252d9aff45d179d166fed
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

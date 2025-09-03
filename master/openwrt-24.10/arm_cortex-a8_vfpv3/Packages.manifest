@@ -5,12 +5,12 @@ Source: /feed/packages/shared-state-async
 SourceName: shared-state-async
 License: AGPL-3.0
 Section: opt
-SourceDateEpoch: 1756660493
+SourceDateEpoch: 1756893973
 Maintainer: Asociación Civil Altermundi <info@altermundi.net>
 Architecture: arm_cortex-a8_vfpv3
 Installed-Size: 215040
 Filename: shared-state-async_2024.05.13~db58e3d-r1_arm_cortex-a8_vfpv3.ipk
-Size: 92785
-SHA256sum: 731b7e7e405125d4240b315c7780784143e41631e24ccbaeeccec1c6b1e203e1
+Size: 92789
+SHA256sum: 265115dd3540a14a5a3262051362b023deb2fc3195848d60c2eff1016e8db027
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

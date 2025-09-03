@@ -4,9 +4,9 @@ Depends: libc, libstdcpp6
 License: AGPL-3.0
 Section: opt
 Architecture: powerpc_464fp
-Installed-Size: 105682
+Installed-Size: 105681
 Filename: shared-state-async_2024.05.13~db58e3d-1_powerpc_464fp.ipk
 Size: 105887
-SHA256sum: 4b23d363004709413aed97e2b7d044d8acdc267d6f28416fdebe8c9d85639e68
+SHA256sum: fd6500d16ac784f932a6bb1cd4037683ae680def3f0308b3bef2773e13d51969
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

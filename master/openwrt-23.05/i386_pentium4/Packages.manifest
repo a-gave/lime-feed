@@ -5,12 +5,12 @@ Source: /feed/packages/shared-state-async
 SourceName: shared-state-async
 License: AGPL-3.0
 Section: opt
-SourceDateEpoch: 1756660493
+SourceDateEpoch: 1756893973
 Maintainer: Asociación Civil Altermundi <info@altermundi.net>
 Architecture: i386_pentium4
-Installed-Size: 91598
+Installed-Size: 91599
 Filename: shared-state-async_2024.05.13~db58e3d-1_i386_pentium4.ipk
-Size: 92527
-SHA256sum: 7156e3a4148b41d17f476477507edfe1a66b9e72f6e33aa2161c344c15a0e599
+Size: 92531
+SHA256sum: 6461d677584aceaf2348c5b0a401b058bc22f0d816eba335c933095e31db0f3c
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

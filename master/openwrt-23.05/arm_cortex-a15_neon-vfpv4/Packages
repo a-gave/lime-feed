@@ -4,9 +4,9 @@ Depends: libc, libstdcpp6
 License: AGPL-3.0
 Section: opt
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 91316
+Installed-Size: 91315
 Filename: shared-state-async_2024.05.13~db58e3d-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 91938
-SHA256sum: 85fb7af6ad73a454ac4408c4e5ba7f8f4cd13083dd27101171f6f7d72706a265
+Size: 91924
+SHA256sum: 4b87c7998282b8602eebd5f87292c5b0d03155d8e89653544f10fefb0c0fbcea
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

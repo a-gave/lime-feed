@@ -6,7 +6,7 @@ Section: opt
 Architecture: mips64_octeonplus
 Installed-Size: 358400
 Filename: shared-state-async_2024.05.13~db58e3d-r1_mips64_octeonplus.ipk
-Size: 107337
-SHA256sum: fb8e94db96594b08f36c31bbc4f2ab0c623d8bce1267c7f7dac87582d8969cb0
+Size: 107335
+SHA256sum: 566fd894ec48214eb3d930159a88e7fee4774aa0bc8959dd3840d8e7faede135
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 
