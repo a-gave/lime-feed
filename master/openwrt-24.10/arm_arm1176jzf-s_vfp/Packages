@@ -1,12 +1,12 @@
 Package: shared-state-async
 Version: 2024.05.13~db58e3d-r1
 Depends: libc, libstdcpp6
-License: AGPL-3.0
+License: AGPL-3.0-only
 Section: opt
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 215040
 Filename: shared-state-async_2024.05.13~db58e3d-r1_arm_arm1176jzf-s_vfp.ipk
-Size: 92882
-SHA256sum: 72f8912ff881f11158d26dc2f1a7b8f1a54956f603c5e273ae7e8c2d47b818f2
+Size: 92864
+SHA256sum: 98dc0ae4b5f875eee41adb114bbaf5b92f5ec7cdc2189a3f7260d874686e7559
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

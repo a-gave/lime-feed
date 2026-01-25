@@ -1,12 +1,12 @@
 Package: shared-state-async
 Version: 2024.05.13~db58e3d-r1
 Depends: libc, libstdcpp6
-License: AGPL-3.0
+License: AGPL-3.0-only
 Section: opt
 Architecture: riscv64_riscv64
 Installed-Size: 225280
 Filename: shared-state-async_2024.05.13~db58e3d-r1_riscv64_riscv64.ipk
-Size: 102241
-SHA256sum: f715fdbeb7b0629c8502d3a5f79e29fa0b90604416913f5f4ad6373222aa94ff
+Size: 102247
+SHA256sum: 9f6a8d77cbf1886021e62a2bb8a428adda6c9ad0742c5b12d5341ed8666d349a
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 
