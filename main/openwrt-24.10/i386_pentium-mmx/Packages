@@ -6,7 +6,7 @@ Section: opt
 Architecture: i386_pentium-mmx
 Installed-Size: 225280
 Filename: shared-state-async_2024.05.13~db58e3d-r1_i386_pentium-mmx.ipk
-Size: 94398
-SHA256sum: 5952d1a2b9ff9de911345ddfcb0107c207b8b1be43f792a4092684071cc39b79
+Size: 94386
+SHA256sum: 819b7db69e83f7db5a49be6028f1e7259b460f9fa0665f052eff5f6ca6b86436
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

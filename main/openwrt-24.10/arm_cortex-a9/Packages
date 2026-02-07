@@ -6,7 +6,7 @@ Section: opt
 Architecture: arm_cortex-a9
 Installed-Size: 215040
 Filename: shared-state-async_2024.05.13~db58e3d-r1_arm_cortex-a9.ipk
-Size: 93243
-SHA256sum: e97aaf082fdcd83c921b06817b5602b385ec83a41bd03d74c449d34a2c9f79ed
+Size: 93226
+SHA256sum: 89a39e01e7ea36253c72e4a100c817681b6a3b5deec657678639dea039f4018f
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

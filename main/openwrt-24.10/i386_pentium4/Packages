@@ -6,7 +6,7 @@ Section: opt
 Architecture: i386_pentium4
 Installed-Size: 225280
 Filename: shared-state-async_2024.05.13~db58e3d-r1_i386_pentium4.ipk
-Size: 92831
-SHA256sum: 17566125d4266c76571a1103cf54dbc0a4819626b07c6a701232940b63b1a1ab
+Size: 92829
+SHA256sum: 5640ec61d06a66fd1dac4b6360107a06f71d08a9f3560620cbbeaaf4f6adc9d1
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 
