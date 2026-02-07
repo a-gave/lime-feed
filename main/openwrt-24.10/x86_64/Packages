@@ -1,24 +1,24 @@
 Package: altermundi-grafana
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, prometheus-node-push-influx, prometheus-node-exporter-lua, prometheus-node-exporter-lua-openwrt, prometheus-node-exporter-lua-wifi_stations, prometheus-node-exporter-lua-wifi-stations-extra, prometheus-node-exporter-lua-wifi-survey, prometheus-node-exporter-lua-wifi-params, prometheus-node-exporter-lua-location-latlon
 Section: utils
 Architecture: all
 Installed-Size: 10240
-Filename: altermundi-grafana_26.038.43450~a922125_all.ipk
-Size: 1180
-SHA256sum: 6c0cad029de15d5e556c9a43f490619a9d42727684b264d7b3206b13641f6141
+Filename: altermundi-grafana_26.038.45043~6f10a24_all.ipk
+Size: 1175
+SHA256sum: 49f7d51f74ee9e9c43ebab5ced419aa7c6c6e9447f3de3923ffd573c047c4972
 Description:  This metapackage installs and configures a statistics collector system
  that gathers data on the node and pushes to https://grafana.altermundi.net
 
 Package: auto-usb-wwan
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc
 Section: utils
 Architecture: all
 Installed-Size: 10240
-Filename: auto-usb-wwan_26.038.43450~a922125_all.ipk
-Size: 1669
-SHA256sum: 63c50986382f5b285a64def5cf57f5c8230e3a37b344d4eb757c0e8641f56de2
+Filename: auto-usb-wwan_26.038.45043~6f10a24_all.ipk
+Size: 1660
+SHA256sum: bc4d5905dbfabe1333c3768aebcc32beb4a9f7433fa4fff0b481766b1d2dc2ca
 Description:  After installing auto-usb-wwan, a hotplug.d script will detect when any USB WiFi device is connected,
  automatically configure it to connect as client to a predefined SSID/password and ask for DHCP.
  The idea is to provide internet access to a router, without needing to mess with LuCI or CLI.
@@ -26,39 +26,39 @@ Description:  After installing auto-usb-wwan, a hotplug.d script will detect whe
  By default, it will try connect to SSID "internet" with password "internet"
 
 Package: babeld-auto-gw-mode
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, libubus-lua, watchping, lime-proto-babeld, lime-system
 Section: lime
 Architecture: all
 Installed-Size: 10240
-Filename: babeld-auto-gw-mode_26.038.43450~a922125_all.ipk
-Size: 1645
-SHA256sum: 068f36a1ae0fcb6b5aa29472ad5e8d636d8937809fcf2321404e7124e5543de6
+Filename: babeld-auto-gw-mode_26.038.45043~6f10a24_all.ipk
+Size: 1648
+SHA256sum: 251978dfc848d05c9d22d30c0301b6af435e260cf1f1c9ca319ade8452e7d2d9
 Description:  Watchping hooks to set babeld Internet automatic announcements.
 
 Package: bandwidth-test
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, pv
 Section: utils
 URL: https://libremesh.org
 Architecture: all
 Installed-Size: 10240
-Filename: bandwidth-test_26.038.43450~a922125_all.ipk
-Size: 3061
-SHA256sum: 83d809bdd4d0fd3afb2dc3cf28752ff02d764ade6d81695f776693a901ef8bd9
+Filename: bandwidth-test_26.038.45043~6f10a24_all.ipk
+Size: 3056
+SHA256sum: 06a1372088cc87604834c466370812df47a6aab3649eb0cfa473f5aa7a69d284
 Description:  Measure the maximum available bandwidth towards the internet, in the download direction.
  Downloading a list of files via HTTP connections.
 
 Package: batman-adv-auto-gw-mode
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, batctl, kmod-batman-adv, watchping, dnsmasq-dhcpv6, ip
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 10240
-Filename: batman-adv-auto-gw-mode_26.038.43450~a922125_all.ipk
-Size: 1927
-SHA256sum: bac9b037348c59afc09025857302e9057d0d9537729734448f12f7dc080f8343
+Filename: batman-adv-auto-gw-mode_26.038.45043~6f10a24_all.ipk
+Size: 1926
+SHA256sum: e25a5ad6f3219afeaaf53360f8f175ec8d87b9e8ac18072514a3fa6a8862086c
 Description:  Adds watchping hooks that set 
  gw_mode=server when WAN port gets internet access
  gw_mode=client when connection is severed
@@ -81,19 +81,19 @@ Architecture: all
 Installed-Size: 10240
 Filename: bmx7-auto-gw-bw-mode_0.0.1-r1_all.ipk
 Size: 2193
-SHA256sum: 5149d9388e8a21b7be7db12d344cb453635a3add001868c09e84de30c355b563
+SHA256sum: 933085beb9f8b66a506815c80636a4783def716f01d94d2c7d0a33036e71a7b3
 Description:  Watchping hooks to set bmx7 Internet bandwidth announcement
 
 Package: bmx7-auto-gw-mode
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, bmx7, watchping, ip
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 10240
-Filename: bmx7-auto-gw-mode_26.038.43450~a922125_all.ipk
-Size: 1156
-SHA256sum: 67a0baf1ea712a897f7260b6cf28f7db56690aa60de76cb4df56c89232d90881
+Filename: bmx7-auto-gw-mode_26.038.45043~6f10a24_all.ipk
+Size: 1151
+SHA256sum: cc09f0b711f8d13a350b704500ef2853f0f0fff2b4074cb30f050d3432f1f9df
 Description:  Watchping hooks to set bmx7 Internet automatic announcements
 
 Package: bmx7-mdns
@@ -105,44 +105,44 @@ URL: http://bmx6.net
 Architecture: all
 Installed-Size: 20480
 Filename: bmx7-mdns_0.0.1-r1_all.ipk
-Size: 3732
-SHA256sum: 406e78f7f696fa8f8eed7ee1e18c8329e49b05984ca59b89b4e77c4404ec7ed9
+Size: 3725
+SHA256sum: 3222bf01354fbdb3d6b00fbd6dfb68df74c92f1131b2ea6564c878078adb9f4d
 Description:  Distributed DNS system using bmx7 sms plugin
 
 Package: check-date-http
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, libuci-lua, lua
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 10240
-Filename: check-date-http_26.038.43450~a922125_all.ipk
-Size: 2736
-SHA256sum: 34cfbcc896d02a3d5c432681a3af1613a76ec352c85b8e709b36cb4dab39c1d5
+Filename: check-date-http_26.038.45043~6f10a24_all.ipk
+Size: 2733
+SHA256sum: 4226592da4b84857dab429f0039d7e231484ae5df53a2760d9578cee5d1be15f
 Description:  Check local time against a list of HTTP(s) services, if the time skew is
  more then 15 minutes, restart sysntpd to force time syncronization, or
  reset trought date command depending on configuration.
 
 Package: check-internet
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, uclient-fetch, lime-system, luci-lib-jsonc, libubus-lua
 Section: utils
 Architecture: all
 Installed-Size: 10240
-Filename: check-internet_26.038.43450~a922125_all.ipk
-Size: 1695
-SHA256sum: 5f40c6ff07b8b7610c4ba55dc1e61860b2179a07473a56e1daf297b26ab88361
+Filename: check-internet_26.038.45043~6f10a24_all.ipk
+Size: 1686
+SHA256sum: 5a166f9c08cbf173662cb8054249246e51280f07ea4235798fd1ea621ba24760
 Description:  Simple script to verify that there is internet access.
 
 Package: deferrable-reboot
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, lime-system
 Section: utils
 Architecture: all
 Installed-Size: 20480
-Filename: deferrable-reboot_26.038.43450~a922125_all.ipk
-Size: 2445
-SHA256sum: e5cdf220ca45a43dd8acb4ce8e5a747445b1a05882f237f6d7c97cef43d9866d
+Filename: deferrable-reboot_26.038.45043~6f10a24_all.ipk
+Size: 2429
+SHA256sum: 8c9bcb169746b4e7a5193dd07f6780b5f179456cd5827be0307526cbbec8a4f3
 Description:  This deferrable-reboot provides a deferrable reboot mechanism. The system
  will be rebooted when the uptime of the system reach a specified amount
  of seconds and if /tmp/deferrable-reboot.defer file does not contain a
@@ -153,51 +153,51 @@ Description:  This deferrable-reboot provides a deferrable reboot mechanism. The
  awk '{print  + 120}' /proc/uptime > /tmp/deferrable-reboot.defer
 
 Package: eupgrade
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, lime-system, luci-lib-jsonc, luci-lib-nixio, libubus-lua, libuci-lua
 Section: utils
 Architecture: all
 Installed-Size: 30720
-Filename: eupgrade_26.038.43450~a922125_all.ipk
-Size: 3866
-SHA256sum: b28bf599e3e672509d49ecc3a228b3bfbdcb0a5fd8c64ebecd849f6f123735fc
+Filename: eupgrade_26.038.45043~6f10a24_all.ipk
+Size: 3864
+SHA256sum: 553b12094cef7cc93faf327c0d83bb12aeb7dba2a638372507430606dbcc9a6f
 Description:  This eupgrade provides semi automated firmware upgrades.
 
 Package: first-boot-wizard
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lime-system
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 40960
-Filename: first-boot-wizard_26.038.43450~a922125_all.ipk
-Size: 7868
-SHA256sum: b77fd9910a03bc84ce7d80a4e5715b1047d532044506771a0f45e6f6f1ad2dfd
+Filename: first-boot-wizard_26.038.45043~6f10a24_all.ipk
+Size: 7865
+SHA256sum: 639ff4085f389ea2ce718143c9a143e789741bdf979101048076c654fbffa403
 Description:  Scans surrounding LibreMesh networks and joins them.
 
 Package: hotplug-initd-services
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, libubox-lua, libubus-lua, lua, luci-lib-nixio
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 10240
-Filename: hotplug-initd-services_26.038.43450~a922125_all.ipk
-Size: 1654
-SHA256sum: ad8dc22f70896ca1993e6487380f0249aa2bf8989fe2f8991764fb44d9e8d390
+Filename: hotplug-initd-services_26.038.45043~6f10a24_all.ipk
+Size: 1650
+SHA256sum: 1be34011c45080afc6be212cb2121c5f24ca4a9eca4aff9663382bf470adbea8
 Description:  Provide trigger hotplug events when init.d services are started and
  stopped. Put your hooks into /etc/hotplug.d/initd/.
 
 Package: lime-ap-watchping
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, watchping, lime-system
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 10240
-Filename: lime-ap-watchping_26.038.43450~a922125_all.ipk
-Size: 2199
-SHA256sum: e1eb0cb53379a5d5e5f9b861da6430c7638f87b89b34f8aa55ac73aae1258c42
+Filename: lime-ap-watchping_26.038.45043~6f10a24_all.ipk
+Size: 2193
+SHA256sum: 1771505b61d5360435113e63c4c8fd851be5fee08e0f2fc7cde33c5d23f9898e
 Description:  Watchping hooks to change AP ssid when the network is down (i.e LibreMesh-Error).
  So the WiFi roaming is broken and the clients are not using the AP anymore until fixed.
 
@@ -209,81 +209,81 @@ URL: http://github.com/libremesh/lime-app
 Architecture: all
 Installed-Size: 757760
 Filename: lime-app_0.2.26-r2_all.ipk
-Size: 199088
-SHA256sum: b842d76a6ab4e6319e895055623c25922df69ceb0b89e08fcf031238f5b87fb9
+Size: 199063
+SHA256sum: 8dd6ba01cf1a3fdf1f6ecf0c3dcaef24eea7e482933c6285cf6d529f32219cfd
 Description:  Light webApp for LibreMesh over uhttpd
 
 Package: lime-debug
-Version: 2026.02.07~1770465850
+Version: 2026.02.07~1770467443
 Depends: libc, bandwidth-test, busybox, ethtool, iwinfo, iw, mtr, ip, iputils-ping, sprunge, safe-reboot, netperf, pv, tcpdump-mini, bwm-ng, lime-report, iperf3, jq
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 10240
-Filename: lime-debug_2026.02.07~1770465850_all.ipk
-Size: 929
-SHA256sum: ccbec9aabe487f7bc9910239520005544fbf14b38f8a4bd756c9c7a7a70ec02c
+Filename: lime-debug_2026.02.07~1770467443_all.ipk
+Size: 922
+SHA256sum: 46edd49679dcf7bfc5c0d78c4de99638bfdfa961973f0440b46ca68b2dc3e746
 Description:  Debug utilities for LibreMesh nodes
 
 Package: lime-docs-it
-Version: 2026.02.07~1770465850
+Version: 2026.02.07~1770467443
 Depends: libc, lime-docs-minimal
 Section: opt
 URL: https://libremesh.org/docs/
 Architecture: all
 Installed-Size: 20480
-Filename: lime-docs-it_2026.02.07~1770465850_all.ipk
-Size: 5433
-SHA256sum: 83d04d69d26fb01d24d7c61fcb211e7e10289273d6de147c6e82b80776b5a79d
+Filename: lime-docs-it_2026.02.07~1770467443_all.ipk
+Size: 5432
+SHA256sum: 0ed9f90724e316a83fd9677e0edbc613cb0cf65c6a9105be7cdab034ab0ca364
 Description:  Offline Italian documentation for LibreMesh firmware
 
 Package: lime-docs-minimal
-Version: 2026.02.07~1770465850
+Version: 2026.02.07~1770467443
 Depends: libc
 Section: opt
 URL: https://libremesh.org/docs/
 Architecture: all
 Installed-Size: 40960
-Filename: lime-docs-minimal_2026.02.07~1770465850_all.ipk
-Size: 9140
-SHA256sum: 957e8d6dd816b6a3866e89066d132f4ff25020064a5484e976c965eb91bb4dfd
+Filename: lime-docs-minimal_2026.02.07~1770467443_all.ipk
+Size: 9136
+SHA256sum: 81c305d9128fb10f9c6982aa97801591c5aacac6cc964d0ef9b45b779b4c16ad
 Description:  Minimal offline English documentation for LibreMesh firmware containing
  just a commented example of the main config file.
 
 Package: lime-docs
-Version: 2026.02.07~1770465850
+Version: 2026.02.07~1770467443
 Depends: libc, lime-docs-minimal
 Section: opt
 URL: https://libremesh.org/docs/
 Architecture: all
 Installed-Size: 61440
-Filename: lime-docs_2026.02.07~1770465850_all.ipk
-Size: 17742
-SHA256sum: 98ff2c0e9a05e74fb75c48cdb08b6443af8ad7633f969e563f154595600e148b
+Filename: lime-docs_2026.02.07~1770467443_all.ipk
+Size: 17741
+SHA256sum: 80dc4878118c0633cdd9ff1de0e7f5121b806f02f452d1ff1dbb9abe3518c844
 Description:  Offline English documentation for LibreMesh firmware
 
 Package: lime-eth-config
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, libubus-lua, lime-system, lua, luci-lib-jsonc
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 20480
-Filename: lime-eth-config_26.038.43450~a922125_all.ipk
+Filename: lime-eth-config_26.038.45043~6f10a24_all.ipk
 Size: 2509
-SHA256sum: 38629f0bd3272299ee744b6c22433e4830376de3666a41f69050555a46a5c1cc
+SHA256sum: 2dd01db4597b3455798453e939d0f79997eabf0557e88a167100ea6d6df04f07
 Description:  Ethernet port configuration for LibreMesh Lime-App.
 
 Package: lime-hwd-ground-routing
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lime-system, lua, libuci-lua
 Section: opt
 URL: https://libremesh.org
 Architecture: all
 Installed-Size: 10240
-Filename: lime-hwd-ground-routing_26.038.43450~a922125_all.ipk
-Size: 2067
-SHA256sum: 8512fc4d5b85e741cafea2b322774eb29f86ebfbbd68226aeaab01284fc4b3c1
+Filename: lime-hwd-ground-routing_26.038.45043~6f10a24_all.ipk
+Size: 2062
+SHA256sum: 66871babd94ebcd0dbfea212cdd1c6a5bb6e22a6275d9e3b4756c3fb3261d035
 Description:  This package helps you to configure setups involving ground routing.
  With ground routing we mean setups having LibreMesh on a router
  which is connected via cable(s), eventually through a switch,
@@ -293,265 +293,265 @@ Description:  This package helps you to configure setups involving ground routin
  switch port for each connected device in WDS mode.
 
 Package: lime-hwd-openwrt-wan
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lime-system, lua, libuci-lua, lime-proto-wan
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 10240
-Filename: lime-hwd-openwrt-wan_26.038.43450~a922125_all.ipk
-Size: 1547
-SHA256sum: d91ec9731099eb4eed3843c49c98d19e21727f31feb56720780e3120a730a3bc
+Filename: lime-hwd-openwrt-wan_26.038.45043~6f10a24_all.ipk
+Size: 1546
+SHA256sum: bd48708b4e971fbbdde43dcfddde756852cd77646ab4695190103bee405294fe
 Description:  Respect openwrt wan interface as default
 
 Package: lime-hwd-usbradio
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lime-system, lua, libuci-lua, luci-lib-nixio
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 20480
-Filename: lime-hwd-usbradio_26.038.43450~a922125_all.ipk
-Size: 2299
-SHA256sum: a42c16942ee99a75e819ee0f013a09424e350cfe88c7a8a6b9ebbbe11ab86940
+Filename: lime-hwd-usbradio_26.038.45043~6f10a24_all.ipk
+Size: 2290
+SHA256sum: 78ed73f1141d84e3e6dc5c5fd06a216be3d699a17902256a3b32831ef5111964
 Description:  LiMe hardware detection usb radio support
 
 Package: lime-hwd-watchcat
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lime-system, lua, watchcat
 Section: lime
 Architecture: all
 Installed-Size: 10240
-Filename: lime-hwd-watchcat_26.038.43450~a922125_all.ipk
-Size: 1572
-SHA256sum: 68f80f0dcb02e6557860996e0408aa7d7767ecef90dff42b3ffc2aa881493e20
+Filename: lime-hwd-watchcat_26.038.45043~6f10a24_all.ipk
+Size: 1565
+SHA256sum: 50ba2f56ad23c0f8dd79ec5aa701e45b18b6163e17d7920f3924dc58bf36a639
 Description:  Integrates OpenWrt’s watchcat into LibreMesh as a hardware-detection
  module (HWD), reading ‘config hwd_watchcat’ from the LibreMesh UCI
  and generating the real /etc/config/watchcat entries.
 
 Package: lime-proto-anygw
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, dnsmasq-dhcpv6, kmod-nft-bridge, libuci-lua, lime-system, lua, kmod-macvlan, shared-state, shared-state-dnsmasq_leases, luci-lib-nixio, firewall4, ip-bridge
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 20480
-Filename: lime-proto-anygw_26.038.43450~a922125_all.ipk
-Size: 3388
-SHA256sum: e4323032a02d7bdd30f2cb8c99417f585e4b6f7095176875f7859e038d42c8f5
+Filename: lime-proto-anygw_26.038.45043~6f10a24_all.ipk
+Size: 3381
+SHA256sum: 7e9b239fcf63e2b758d29e83024bde089c1bd6cdffe23945f1cf30255eefec21
 Description:  LiMe anygw proto support
 
 Package: lime-proto-babeld
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, babeld, lime-system, luci-lib-nixio
 Section: lime
 URL: https://github.com/libremesh/lime-packages/
 Architecture: all
 Installed-Size: 10240
-Filename: lime-proto-babeld_26.038.43450~a922125_all.ipk
+Filename: lime-proto-babeld_26.038.45043~6f10a24_all.ipk
 Size: 2026
-SHA256sum: 6bfe116915c0e693fc64f275fe79b79f689b00889f61ea357c3383aeb40a12a4
+SHA256sum: 2b36d38c80a310c14d0b2a421745d8498e110913ff1a34b0142739278995da06
 Description:  LiMe babeld proto support
 
 Package: lime-proto-batadv
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lime-system, lua, libuci-lua, kmod-batman-adv, luci-lib-nixio
 Section: lime
 URL: https://github.com/libremesh/lime-packages/
 Architecture: all
 Installed-Size: 10240
-Filename: lime-proto-batadv_26.038.43450~a922125_all.ipk
-Size: 2145
-SHA256sum: 0356b74f7150dc3d177aa460151f6025039a31701f8f31034ea0da613df85a46
+Filename: lime-proto-batadv_26.038.45043~6f10a24_all.ipk
+Size: 2139
+SHA256sum: 8283ef4bd695d4466c9922cd3501547c5f7e28ef22bbf9504c75a2d8ad6f53e0
 Description:  LiMe batman-adv proto support
 
 Package: lime-proto-bgp
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, bird1-ipv4, bird1-ipv6, lime-system, lua, luci-lib-nixio
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 10240
-Filename: lime-proto-bgp_26.038.43450~a922125_all.ipk
-Size: 1996
-SHA256sum: 89fd9f0469594c9066827f9ba978adae29014a661e5dacccc2212d2c2228df6e
+Filename: lime-proto-bgp_26.038.45043~6f10a24_all.ipk
+Size: 1992
+SHA256sum: 9b780f9a4be8e6f6c6f39b19605da407be72d13b66ddc16e239bb6386d42b7ff
 Description:  LiMe BGP proto support
 
 Package: lime-proto-bmx7
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, bmx7, bmx7-json, bmx7-sms, bmx7-table, bmx7-uci-config, bmx7-tun, lime-system, lua, libuci-lua, luci-lib-nixio, kmod-nft-bridge, firewall4
 Section: lime
 URL: https://github.com/libremesh/lime-packages/
 Architecture: all
 Installed-Size: 20480
-Filename: lime-proto-bmx7_26.038.43450~a922125_all.ipk
-Size: 3393
-SHA256sum: 1d30fe84ab3d35bcd1a00b1f19a49b25b0a84e603a209769f96db741d9083365
+Filename: lime-proto-bmx7_26.038.45043~6f10a24_all.ipk
+Size: 3382
+SHA256sum: 28aa8e878f8ee3089b9d6907dbf54e6d193f5460efa77a808c83148ccfd5d0bd
 Description:  LiMe Bmx7 proto support
 
 Package: lime-proto-olsr2
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, libuci-lua, lime-system, oonf-olsrd2, luci-lib-ip, luci-lib-nixio
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 10240
-Filename: lime-proto-olsr2_26.038.43450~a922125_all.ipk
-Size: 1727
-SHA256sum: 28c289d7b268554670d4dee94a7273223bb597a3142843a11ee14ee5bfa45dcc
+Filename: lime-proto-olsr2_26.038.45043~6f10a24_all.ipk
+Size: 1722
+SHA256sum: 64186352a4c1b9202427623f2ddb00e92dee2239aad21939e7260a1cf38150d0
 Description:  LiMe OLSR2 proto support (IPv4/v6)
 
 Package: lime-proto-olsr6
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, libuci-lua, lime-system, olsrd, olsrd-mod-jsoninfo, luci-lib-ip, luci-lib-nixio
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 10240
-Filename: lime-proto-olsr6_26.038.43450~a922125_all.ipk
-Size: 1757
-SHA256sum: 1b5ab2663c50e4587da47279ecd529cda70dbbf498dfcbbbc70c2c9898391f87
+Filename: lime-proto-olsr6_26.038.45043~6f10a24_all.ipk
+Size: 1753
+SHA256sum: 8cb9f6f5b47024ca37b444afa565071d3f3f5a8b8eafabc1d3fe5d7635ae7380
 Description:  LiMe OLSR proto support (IPv6)
 
 Package: lime-proto-olsr
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, libuci-lua, lime-system, olsrd, olsrd-mod-jsoninfo, kmod-ipip, luci-lib-ip, luci-lib-nixio
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 10240
-Filename: lime-proto-olsr_26.038.43450~a922125_all.ipk
-Size: 1769
-SHA256sum: b9e507ded8f3954a1f526707e36d7303a20456700f368add28a19c08213ed522
+Filename: lime-proto-olsr_26.038.45043~6f10a24_all.ipk
+Size: 1761
+SHA256sum: 83b8a8eaf2d21a74319356abbeec8fb0bdcb706f8efd4e9b8f1e859529d1848e
 Description:  LiMe OLSR proto support (IPv4)
 
 Package: lime-proto-wan
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, firewall4, lime-system, lua, libuci-lua
 Section: lime
 URL: https://github.com/libremesh/lime-packages/
 Architecture: all
 Installed-Size: 10240
-Filename: lime-proto-wan_26.038.43450~a922125_all.ipk
-Size: 1345
-SHA256sum: 6581290d8803f994855f7536a2f5ed141c5847acd5cc98405d257c6ee8aa3bb8
+Filename: lime-proto-wan_26.038.45043~6f10a24_all.ipk
+Size: 1343
+SHA256sum: a98ecb22f542197e4b5ab0310af8ab1a228ef18c445ad140de8a919c2edfc578
 Description:  LiMe wan proto support
 
 Package: lime-report
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc
 Section: opt
 URL: https://libremesh.org
 Architecture: all
 Installed-Size: 10240
-Filename: lime-report_26.038.43450~a922125_all.ipk
-Size: 1775
-SHA256sum: 29353f2047a16f8324f658b07d5e9a71853cf1d194048cdb9c5787db6ba72a9f
+Filename: lime-report_26.038.45043~6f10a24_all.ipk
+Size: 1774
+SHA256sum: e3e5ad810e667d2f3b0238b5c89d76f52a3130f467b9aaa2443d0037b70e3522
 Description:  Outputs a report about the status and the main configuration
  of a LibreMesh node, useful for debugging and issues reporting.
 
 Package: lime-smart-wifi
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/lime-packages/
 Architecture: all
 Installed-Size: 20480
-Filename: lime-smart-wifi_26.038.43450~a922125_all.ipk
-Size: 2611
-SHA256sum: 11d3fffddeafdcfcaae767c925de7fcce246a154d4aa18a31fe2763ba840ccd9
+Filename: lime-smart-wifi_26.038.45043~6f10a24_all.ipk
+Size: 2601
+SHA256sum: c0df4def5ca6d50b46be454f514eafd90671665a79251853bbd984604aa534f8
 Description:  Automatically configure wifi mesh and ap based on existing radios
 
 Package: lime-system
-Version: 2026.02.07~1770465850
+Version: 2026.02.07~1770467443
 Depends: libc, firewall4, libiwinfo-lua, lua, libuci-lua, luci-lib-ip, luci-lib-nixio, luci-lib-jsonc
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 143360
-Filename: lime-system_2026.02.07~1770465850_all.ipk
-Size: 28508
-SHA256sum: 237febf6e052d589469e974e95d149457435c9bcc03c50b9e0a37c5d920f1d7c
+Filename: lime-system_2026.02.07~1770467443_all.ipk
+Size: 28513
+SHA256sum: 82666a4c05e114fafb86aac5d60a17388d43a3d5c4ad37fb75bda5d09a3bf6f1
 Description:  LibreMesh is a modular meta-firmare this package provide the core of it
  which articulates all LiMe modules around it
 
 Package: miniserver-client
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, prometheus-node-push-influx, prometheus-node-exporter-lua, prometheus-node-exporter-lua-openwrt, prometheus-node-exporter-lua-wifi_stations, prometheus-node-exporter-lua-wifi-stations-extra, prometheus-node-exporter-lua-wifi-survey, prometheus-node-exporter-lua-wifi-params, prometheus-node-exporter-lua-location-latlon
 Section: utils
 Architecture: all
 Installed-Size: 10240
-Filename: miniserver-client_26.038.43450~a922125_all.ipk
-Size: 1920
-SHA256sum: 6e9fe6565c5a7e9400b8b30ac8bb37792e029ddbd3ca9d6bf45d6fb7473d0679
+Filename: miniserver-client_26.038.45043~6f10a24_all.ipk
+Size: 1918
+SHA256sum: beb762df3ca8a2499fc977c9729cbec2fed436a4376e3ddfd4e80124e7fba051
 Description:  This metapackage installs and configures a statistics collector system
  that gathers data on the node and pushes to a local "miniserver"
  reachable on the local network.
 
 Package: pirania
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, ip6tables-mod-nat, ipset, shared-state, shared-state-pirania, uhttpd-mod-lua, lime-system, luci-lib-jsonc, liblucihttp-lua, luci-lib-nixio, libubus-lua, libuci-lua
 Section: net
 Architecture: all
 Installed-Size: 112640
-Filename: pirania_26.038.43450~a922125_all.ipk
-Size: 22786
-SHA256sum: b738953d48c30a8ed3d2e2f764270a1f0c5525d6cc7c420cf521602f41b82078
+Filename: pirania_26.038.45043~6f10a24_all.ipk
+Size: 22784
+SHA256sum: 72393943b81e6a98049ff0303462721bcafdcd016d65e56a5100807dabfeb96a
 Description:  Captive Portal for routers that want to share their Internet connection via vouchers.
 
 Package: prometheus-node-exporter-lua-location-latlon
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, libuci-lua, iw, libubus-lua
 Section: utils
 Architecture: all
 Installed-Size: 10240
-Filename: prometheus-node-exporter-lua-location-latlon_26.038.43450~a922125_all.ipk
-Size: 1263
-SHA256sum: 52571ec8773158f5fb6a93c7b45bc431b47ca9799cc420e9cb3faa908089147d
+Filename: prometheus-node-exporter-lua-location-latlon_26.038.45043~6f10a24_all.ipk
+Size: 1260
+SHA256sum: da680da780ed188bc55097debccda3c1a84693cf2610c0cd78010c69b0a01c96
 Description:  Prometheus node exporter (location_latlon collector)
 
 Package: prometheus-node-exporter-lua-wifi-params
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, libuci-lua, iw
 Section: utils
 Architecture: all
 Installed-Size: 10240
-Filename: prometheus-node-exporter-lua-wifi-params_26.038.43450~a922125_all.ipk
-Size: 1260
-SHA256sum: ae57599e24c3defd229bc748f4e13dc2ebb9ce61cebd79a31de0a6a3402e720b
+Filename: prometheus-node-exporter-lua-wifi-params_26.038.45043~6f10a24_all.ipk
+Size: 1254
+SHA256sum: 3becf706f35354d847f1b69477a11bae25fd936d23b08fd5c3d0d446ad92d43f
 Description:  Prometheus node exporter (wifi_params collector)
 
 Package: prometheus-node-exporter-lua-wifi-stations-extra
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, libuci-lua, iw, libubus-lua
 Section: utils
 Architecture: all
 Installed-Size: 10240
-Filename: prometheus-node-exporter-lua-wifi-stations-extra_26.038.43450~a922125_all.ipk
-Size: 1927
-SHA256sum: 167b81b999997c94fcc8db55aba9845a7a28adc46cb3e2522630f1dfd4a7150b
+Filename: prometheus-node-exporter-lua-wifi-stations-extra_26.038.45043~6f10a24_all.ipk
+Size: 1923
+SHA256sum: 9a1c66e18f79ab5587471958107fe0f4be6e416dd1a112aa2f2117663e76733c
 Description:  Prometheus node exporter (wifi_stations_extra collector)
 
 Package: prometheus-node-exporter-lua-wifi-survey
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, iw, libubus-lua
 Section: utils
 Architecture: all
 Installed-Size: 10240
-Filename: prometheus-node-exporter-lua-wifi-survey_26.038.43450~a922125_all.ipk
-Size: 1691
-SHA256sum: 3135853c9ec5bcf7b22effa2d2b0ca3ebf99944eb2136eb4abc7527ae78f6b77
+Filename: prometheus-node-exporter-lua-wifi-survey_26.038.45043~6f10a24_all.ipk
+Size: 1683
+SHA256sum: 36be52ce9c240121a6d5e6055492051bb8300d17ffe3ff8963cbc01ce852820b
 Description:  Prometheus node exporter (wifi_survey collector)
 
 Package: prometheus-node-push-influx
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, libuci-lua, luasocket, libubus-lua
 Section: utils
 Architecture: all
 Installed-Size: 20480
-Filename: prometheus-node-push-influx_26.038.43450~a922125_all.ipk
-Size: 3610
-SHA256sum: b73925eb4f9782f5b10478aee5927ce565b626b112cde0fa06df81ef579c9d21
+Filename: prometheus-node-push-influx_26.038.45043~6f10a24_all.ipk
+Size: 3607
+SHA256sum: dc6816b01f2904064697ab658d4ae3fb9e4d6a5544c0d5841862dbc834666d97
 Description:  Collects the same statistics as prometheus-node-exporter-lua,
  but instead of exposing them as a server, with prometheus syntax,
  pushes them using influx line protocol over TCP
@@ -566,20 +566,20 @@ Architecture: all
 Installed-Size: 10240
 Filename: random-numgen_0.0.1-r1_all.ipk
 Size: 1150
-SHA256sum: ec59e207fdbde28027a18d840ce4a72f3acda8b634b15a34454670f5f15f01f1
+SHA256sum: bc94b3db0a5ce4a7d2ccd7cf47c8061143ad2b61b4e9e45ccf4949c9028df7e6
 Description:  Offers an alternative to the RANDOM shell variable,
  generating a pseudo-random integer number from 0 to
  65535 using /dev/urandom as a random data source.
 
 Package: safe-reboot
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc
 Section: utils
 Architecture: all
 Installed-Size: 10240
-Filename: safe-reboot_26.038.43450~a922125_all.ipk
-Size: 3169
-SHA256sum: f2fceb5bc7965ec0a7215df9f1ac6f2189b8aee686b3d719fcce54927cbeb4c0
+Filename: safe-reboot_26.038.45043~6f10a24_all.ipk
+Size: 3165
+SHA256sum: 15bfaba58487d6122aa6baeaa5d6537fc679509165a6441e7edbd0f061eb2aa0
 Description:  When you run safe-reboot specifying a grace time, it makes a backup of /etc at that point,
  and after the grace time reboots the system. At the next boot, it waits again for a timeout;
  if you can't login and delete the backup, it will restore it and reboot.
@@ -590,14 +590,14 @@ Description:  When you run safe-reboot specifying a grace time, it makes a backu
  for the revert timeout.
 
 Package: safe-upgrade
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua-argparse, luci-lib-jsonc, lime-system
 Section: utils
 Architecture: all
 Installed-Size: 20480
-Filename: safe-upgrade_26.038.43450~a922125_all.ipk
-Size: 5343
-SHA256sum: 912eda9ff1fb0c0dfe1b15ae9ef9f5471527d01174856bb170b03b0a5e31568b
+Filename: safe-upgrade_26.038.45043~6f10a24_all.ipk
+Size: 5334
+SHA256sum: b3dfc79410569eef4ce5a122d5e569f5e0bda62918f0d9ef8af55c3b4c4bcf90
 Description:  safe-upgrade provides safe firmware upgrades using two partitions and a
  confirmation step. See safe-upgrade/Readme.md for more details.
 
@@ -609,311 +609,311 @@ Section: opt
 Architecture: x86_64
 Installed-Size: 245760
 Filename: shared-state-async_2024.05.13~db58e3d-r1_x86_64.ipk
-Size: 100273
-SHA256sum: fa6d38fe59cdf5674bc9016831e02cd5cd8862af5ad2ff7ffbb6167ff2890ae9
+Size: 100259
+SHA256sum: d1128574eee04d77dc7b732f519d06fd2f812818c4efa38885fc4ef938bb9a57
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 
 Package: shared-state-babel_links_info
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, luci-lib-jsonc, ubus-lime-utils, libubus-lua, shared-state-ref_state_commons, shared-state-async
 Section: opt
 Architecture: all
 Installed-Size: 20480
-Filename: shared-state-babel_links_info_26.038.43450~a922125_all.ipk
-Size: 1897
-SHA256sum: ad4781349a37f33c2c5c692c5ba7a036faa12df64c187be8f80e1de12e25decf
+Filename: shared-state-babel_links_info_26.038.45043~6f10a24_all.ipk
+Size: 1895
+SHA256sum: aa5b8d0629a10d624d600f15baf4f07b9f552a6620b3de7ea439c9b5f1c24626
 Description:  Synchronize Babel links information beween nodes.
 
 Package: shared-state-babeld_hosts
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, hotplug-initd-services, lua, luci-lib-jsonc, shared-state
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 20480
-Filename: shared-state-babeld_hosts_26.038.43450~a922125_all.ipk
-Size: 2093
-SHA256sum: bd2b5004f016dc645fda0d51770bdcc6d3bede3232af73d52ddd8e39ca7f3de8
+Filename: shared-state-babeld_hosts_26.038.45043~6f10a24_all.ipk
+Size: 2092
+SHA256sum: 43508eaf40d80958dcca1e2197f7bfaa9895904712c329893fbcd3a2426f0042
 Description:  Maintain a shared babel_id-hostname translation table, provides also
  bab2host and host2bab commands.
 
 Package: shared-state-bat_hosts
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, libubus-lua, lime-system, lua, luci-lib-jsonc, luci-lib-nixio, shared-state-async
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 30720
-Filename: shared-state-bat_hosts_26.038.43450~a922125_all.ipk
-Size: 3091
-SHA256sum: 07788b13e0e87c32e6a53602187716e566e8df1c33d1b327e9d8cd18abd0dccb
+Filename: shared-state-bat_hosts_26.038.45043~6f10a24_all.ipk
+Size: 3094
+SHA256sum: 5b571f5691124ef37be270d1ac0e780936fe1503c3d7d85219df57b629c74745
 Description:  Syncronize bat-hosts beween nodes, provides also mac2bat and bat2mac.
 
 Package: shared-state-bat_links_info
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, luci-lib-jsonc, ubus-lime-utils, lime-system, batctl-default, shared-state-ref_state_commons, shared-state-async
 Section: lime
 Architecture: all
 Installed-Size: 20480
-Filename: shared-state-bat_links_info_26.038.43450~a922125_all.ipk
-Size: 2063
-SHA256sum: a4485f0eff6a79ce9ca8ff1d21d78ff41ad291647af2e53b8647038048ef0f8f
+Filename: shared-state-bat_links_info_26.038.45043~6f10a24_all.ipk
+Size: 2067
+SHA256sum: ccc25fc22812033fb46ae2a858926fe665d45fd8af91c2cb9b7828a95a3d2ce8
 Description:  Syncronize batman protocol links information beween nodes.
 
 Package: shared-state-dnsmasq_hosts
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, luci-lib-jsonc, shared-state
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 10240
-Filename: shared-state-dnsmasq_hosts_26.038.43450~a922125_all.ipk
-Size: 1694
-SHA256sum: 84c08fc6d841b91b77c8651ea9e89cb839f2cff6fe551e9115a6e1625c6de566
+Filename: shared-state-dnsmasq_hosts_26.038.45043~6f10a24_all.ipk
+Size: 1680
+SHA256sum: 1cefa89e080bcac3a9703d99fd54d460e232f8ce25846b5b80524af4f82b7729
 Description:  Syncronize dnsmasq hosts beween nodes.
 
 Package: shared-state-dnsmasq_leases
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, libuci-lua, lua, luci-lib-jsonc, shared-state, shared-state-dnsmasq_hosts, luci-lib-nixio
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 20480
-Filename: shared-state-dnsmasq_leases_26.038.43450~a922125_all.ipk
-Size: 2765
-SHA256sum: eb9b9286eba18c237d7882bea57428671eedf07467e8955e024fc0e6535e7fcd
+Filename: shared-state-dnsmasq_leases_26.038.45043~6f10a24_all.ipk
+Size: 2756
+SHA256sum: 063cacbca975bbb03e81ed834edb1913d25e97ad95b06e1c904d773c1fa55357
 Description:  Syncronize dnsmasq leases beween nodes.
 
 Package: shared-state-dnsmasq_servers
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, luci-lib-jsonc, shared-state
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 10240
-Filename: shared-state-dnsmasq_servers_26.038.43450~a922125_all.ipk
-Size: 1983
-SHA256sum: 36ab3371e91a8ecb2689d345a2eb568c2bcd263bc23a10073996254b25e5c4b3
+Filename: shared-state-dnsmasq_servers_26.038.45043~6f10a24_all.ipk
+Size: 1970
+SHA256sum: f5aead56e73cf86e4be00d7787f042ae773fbb889235e77f855faaaf8a79e3c8
 Description:  Generates 'server' lines in dnsmasq config, so that domain zones published
  by other nodes in the mesh can be resolved transparently.
 
 Package: shared-state-network_nodes
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, shared-state, shared-state-nodes_and_links, lime-system, luci-lib-jsonc, libubus-lua
 Section: opt
 Architecture: all
 Installed-Size: 20480
-Filename: shared-state-network_nodes_26.038.43450~a922125_all.ipk
-Size: 2911
-SHA256sum: dee61cde34a198f7e10e39149d9326442dbb5a3883ce6604c39edf77b1db69cc
+Filename: shared-state-network_nodes_26.038.45043~6f10a24_all.ipk
+Size: 2912
+SHA256sum: 9367db543937bc45568c2ab2d75395adb25d6285ec92792978ef8ed447613981
 Description:  Provides data-type for network nodes marked as reliable by user via lime-app
 
 Package: shared-state-node_info
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, luci-lib-jsonc, ubus-lime-utils, lime-system, ubus-lime-location, shared-state-ref_state_commons, shared-state-async
 Section: lime
 Architecture: all
 Installed-Size: 20480
-Filename: shared-state-node_info_26.038.43450~a922125_all.ipk
-Size: 1904
-SHA256sum: d12a7f9bf7f17f8fe38723adef4f82e7d74af03361ee5e8e53e21642069d3be5
+Filename: shared-state-node_info_26.038.45043~6f10a24_all.ipk
+Size: 1901
+SHA256sum: 20ffbf2c84965e14f633fa38b462fec4240a194c6e18399348f3199f489c9022
 Description:  Syncronize node information beween nodes.
 
 Package: shared-state-nodes_and_links
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, luci-lib-jsonc, shared-state, ubus-lime-location
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 10240
-Filename: shared-state-nodes_and_links_26.038.43450~a922125_all.ipk
-Size: 1411
-SHA256sum: 72e34c35d26c6a70e8b23ea05e82b799ec2def57e71e7882a078a687005f5314
+Filename: shared-state-nodes_and_links_26.038.45043~6f10a24_all.ipk
+Size: 1407
+SHA256sum: d8db125d5c4486a91ffa502d22cff655def85a79ec08a84569ec34f1af14d965
 Description:  Syncronize nodes_and_links beween nodes.
 
 Package: shared-state-persist
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, block-mount, kmod-usb-storage, kmod-fs-vfat, shared-state, luci-lib-nixio
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 10240
-Filename: shared-state-persist_26.038.43450~a922125_all.ipk
-Size: 1955
-SHA256sum: c096679531f64b33ff0a369416ef025fe0f3e1a28199f7c8c147fa3982a1a33c
+Filename: shared-state-persist_26.038.45043~6f10a24_all.ipk
+Size: 1946
+SHA256sum: cd26c6142e083b296eb7ab3b3931421996e98420f8583f1bf3a612dad1632c17
 Description:  Detects block-mount storage devices and configures shared-state so that status persists on those devices.
 
 Package: shared-state-pirania
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, luci-lib-jsonc, shared-state
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 20480
-Filename: shared-state-pirania_26.038.43450~a922125_all.ipk
-Size: 2163
-SHA256sum: d7103c749563ca397c17509e5d3abecf0a6123ede21609e5b5387ed149b98f09
+Filename: shared-state-pirania_26.038.45043~6f10a24_all.ipk
+Size: 2161
+SHA256sum: 2d23774667fc640edf9259912bc587aedccfc256139065c879e3f3b91b634ad8
 Description:  Syncronize valid pirania vauchers beween nodes
 
 Package: shared-state-ref_state_commons
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, luci-lib-jsonc, ubus-lime-utils, lime-system, shared-state-async
 Section: lime
 Architecture: all
 Installed-Size: 20480
-Filename: shared-state-ref_state_commons_26.038.43450~a922125_all.ipk
-Size: 2283
-SHA256sum: 5de692610d075b02253bee7e0333345ad36ee0f625c596e40634c7512fe3fb0e
+Filename: shared-state-ref_state_commons_26.038.45043~6f10a24_all.ipk
+Size: 2279
+SHA256sum: a3d05ceda3b75bede5f9f91bae2d2df8de97364ce8147ab4f2fde56ab2bcf9c1
 Description:  Common components for reference satate datypes
 
 Package: shared-state-wifi_links_info
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, luci-lib-jsonc, ubus-lime-utils, lime-system, libiwinfo-lua, shared-state-ref_state_commons, shared-state-async
 Section: opt
 Architecture: all
 Installed-Size: 20480
-Filename: shared-state-wifi_links_info_26.038.43450~a922125_all.ipk
-Size: 1862
-SHA256sum: 1e45776e0d6c1f78274a75eab75fb728809531926417135796ebd42623a69f47
+Filename: shared-state-wifi_links_info_26.038.45043~6f10a24_all.ipk
+Size: 1855
+SHA256sum: 2c66f7c46339cfe9cd6c97aa4a0ecf3e43c48b2ac7207813ac0e6a93fea03fdb
 Description:  Syncronize links information beween nodes.
 
 Package: shared-state
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, libuci-lua, lime-system, lua, luci-lib-jsonc, luci-lib-nixio, iputils-ping, uclient-fetch, uhttpd
 Section: opt
 URL: http://libremesh.org
 Architecture: all
 Installed-Size: 40960
-Filename: shared-state_26.038.43450~a922125_all.ipk
-Size: 6065
-SHA256sum: a52a6f637360845cb64629a48f2516d1e66097dfb35744d0f6aefc85dcd3e09d
+Filename: shared-state_26.038.45043~6f10a24_all.ipk
+Size: 6062
+SHA256sum: 5a80390a9947a9a6a6e2c7e9fb80ddd7d1ac6a8cbb7ca4f9123e24a1f2db38b9
 Description:  LiMe style minimal unsecured CRDT to share light state between nodes
 
 Package: soporteremoto
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, zerotier, auto-usb-wwan, kmod-ath9k-htc, ath9k-htc-firmware
 Section: utils
 Architecture: all
 Installed-Size: 10240
-Filename: soporteremoto_26.038.43450~a922125_all.ipk
-Size: 3421
-SHA256sum: 8c66db5a302da86df5cf7e1b254b27f2e80b0037158c75b399ebffdc06fed5fd
+Filename: soporteremoto_26.038.45043~6f10a24_all.ipk
+Size: 3424
+SHA256sum: 783de1d450f1a10a8c0a1d1269766f1227595ff63b1681290166089a0b69b7c9
 Description:  Installs auto-usb-wwan to provide a zero-configuration WWAN via USB dongle
  zerotier to provide VPN transport
  and installs a predefined set of ssh authorized_keys of AlterMundi members
  that will be granted root access
 
 Package: sprunge
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc
 Section: utils
 URL: http://ix.io
 Architecture: all
 Installed-Size: 10240
-Filename: sprunge_26.038.43450~a922125_all.ipk
-Size: 1501
-SHA256sum: e64a558fbaed814f5bd0120f49e6d8d428a9267649cde160b150590a4520ab29
+Filename: sprunge_26.038.45043~6f10a24_all.ipk
+Size: 1495
+SHA256sum: f495444cb6cdc287b64523704d8123ef7c8468e72082cf80549674d57ebb630b
 Description:  sprunge.us and ix.io command line pastebin
 
 Package: ubus-lime-batman-adv
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, batctl, lua, libubox-lua, libubus-lua, luci-lib-nixio, lime-system, luci-lib-jsonc
 Section: ubus
 Architecture: all
 Installed-Size: 10240
-Filename: ubus-lime-batman-adv_26.038.43450~a922125_all.ipk
-Size: 2221
-SHA256sum: 136188e9970a995f3003a7f3603d05f0094d4de3989a11b041290ecc043c6f04
+Filename: ubus-lime-batman-adv_26.038.45043~6f10a24_all.ipk
+Size: 2214
+SHA256sum: d06bcf8d35600ab8d84c605e075c8c8fb908f1723da6fe7b997b802d29ef618b
 Description:  B.A.T.M.A.N.-Adv ubus status module
 
 Package: ubus-lime-groundrouting
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, libubox-lua, libubus-lua, libuci-lua, lime-system, luci-lib-jsonc
 Section: ubus
 Architecture: all
 Installed-Size: 10240
-Filename: ubus-lime-groundrouting_26.038.43450~a922125_all.ipk
-Size: 1948
-SHA256sum: 9304a0774e04d4fe19e76d4bbbeefb80579bff6bb0e54972ba5591bf1b49ec49
+Filename: ubus-lime-groundrouting_26.038.45043~6f10a24_all.ipk
+Size: 1950
+SHA256sum: fad03e11b833ba8d0dc1dc43eb376148655d2a319d457de1f27a41ab94ad6aad
 Description:  Libremap ubus ground routing module
 
 Package: ubus-lime-location
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, libubox-lua, libubus-lua, libuci-lua, lime-system, luci-lib-jsonc
 Section: ubus
 Architecture: all
 Installed-Size: 20480
-Filename: ubus-lime-location_26.038.43450~a922125_all.ipk
-Size: 2838
-SHA256sum: f929de7a9eeb348b68931df40a88e8d8143baf14658ca7da884931e7b3813977
+Filename: ubus-lime-location_26.038.45043~6f10a24_all.ipk
+Size: 2839
+SHA256sum: fe3776cb523f8e2c061778fd62bb35711a783fcd8c6942c46265b16cbd239b44
 Description:  Libremap ubus status module
 
 Package: ubus-lime-metrics
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, libubox-lua, libubus-lua, luci-lib-jsonc, netperf, mtr, check-internet, lime-system, ubus-lime-utils
 Section: ubus
 Architecture: all
 Installed-Size: 20480
-Filename: ubus-lime-metrics_26.038.43450~a922125_all.ipk
-Size: 3729
-SHA256sum: 901cdfe868f65084145a760dfa3c41beae11fb8e8fc26ae06b99c9fae50e4652
+Filename: ubus-lime-metrics_26.038.45043~6f10a24_all.ipk
+Size: 3726
+SHA256sum: 09c0d0b7cddfce0bf0760f16b3474d682435f5acb265758caa1973dd24a34f30
 Description:  Metrics ubus module
 
 Package: ubus-lime-openairview
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, libubox-lua, libubus-lua, libiwinfo-lua, luci-lib-nixio, luci-lib-jsonc, lime-system
 Section: ubus
 Architecture: all
 Installed-Size: 10240
-Filename: ubus-lime-openairview_26.038.43450~a922125_all.ipk
-Size: 2114
-SHA256sum: 5ea77377f6120169ba147b8339b0706a311dfc7392e5daf65822e0ac2fb77276
+Filename: ubus-lime-openairview_26.038.45043~6f10a24_all.ipk
+Size: 2116
+SHA256sum: d1dc26f823a75db81a969c16082ac10bf54f161e1013d9a6bbd8d7d3e6d812fd
 Description:  Openairview ubus module
 
 Package: ubus-lime-utils
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, libubox-lua, libubus-lua, libuci, lime-system, libiwinfo-lua, cgi-io, rpcd-mod-file, luci-lib-jsonc
 Section: ubus
 Architecture: all
 Installed-Size: 61440
-Filename: ubus-lime-utils_26.038.43450~a922125_all.ipk
-Size: 9563
-SHA256sum: 0de32cf8c5e2ebb70fee65b82fcd572b03d1d7f242dfdbb852f86cd403cbc2b5
+Filename: ubus-lime-utils_26.038.45043~6f10a24_all.ipk
+Size: 9559
+SHA256sum: 7d9ab422965df35d9e8cb7c7c7eb4bf46e4117e54a9f0a1577b116a8aae92331
 Description:  LIbremesh ubus utils module
 
 Package: ubus-tmate
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, tmate, lime-system, luci-lib-jsonc
 Section: net
 Architecture: all
 Installed-Size: 20480
-Filename: ubus-tmate_26.038.43450~a922125_all.ipk
-Size: 2163
-SHA256sum: b419b9c6c4dd92e80f8f30641bed4e57f4410f115be5e372b0868aee6a8a785c
+Filename: ubus-tmate_26.038.45043~6f10a24_all.ipk
+Size: 2159
+SHA256sum: 7500cf2863a0d85a1e63ccca34e00b9950bb88a554b5c8cf15be844efefcd5e2
 Description:  It allows to create remote sessions over tmate through ubus.
 
 Package: watchping
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc
 Section: utils
 Architecture: all
 Installed-Size: 20480
-Filename: watchping_26.038.43450~a922125_all.ipk
-Size: 3434
-SHA256sum: 81687c253d8089d7b21dd1ba1e6b22538ddce7d60dd7958fb4fe32d4a672875f
+Filename: watchping_26.038.45043~6f10a24_all.ipk
+Size: 3428
+SHA256sum: 89c2ec580d9ecccd86ff0af01fbd127f7aae0ea266cd376ab503ae5abe04c7fe
 Description:  Checks reachability of given host(s) through particular interface(s) (e.g. 8.8.8.8 on WAN).
  Action hooks are run from /etc/watchping/*.d/
  Configuration is done in /etc/config/system.
 
 Package: wifi-unstuck-wa
-Version: 26.038.43450~a922125
+Version: 26.038.45043~6f10a24
 Depends: libc, lua, lime-system, luci-lib-nixio
 Section: utils
 Architecture: all
 Installed-Size: 20480
-Filename: wifi-unstuck-wa_26.038.43450~a922125_all.ipk
-Size: 2248
-SHA256sum: 71a96719c0d2ea2eb0c09ae40dba46705125f42c4f2fb376c866d1556f59d97e
+Filename: wifi-unstuck-wa_26.038.45043~6f10a24_all.ipk
+Size: 2244
+SHA256sum: 9f55d295ef16cd73d37310e762746694531e3c40efb77c41001168f624808d5d
 Description:  This wifi-unstuck-wa is a collection of workarounds to radio and/or
  radio driver bugs.
 
