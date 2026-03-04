@@ -6,7 +6,7 @@ Section: opt
 Architecture: aarch64_cortex-a53
 Installed-Size: 286720
 Filename: shared-state-async_2024.05.13~db58e3d-r1_aarch64_cortex-a53.ipk
-Size: 98476
-SHA256sum: 132b3575b2354279774e132a6fe07c21fdcf7db0dbe81f948e015229a9c9fa96
+Size: 98469
+SHA256sum: eb978e4488cf8e59a077e836c655b21eb6c7746b7c24e6596d51c13fdae22fb3
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

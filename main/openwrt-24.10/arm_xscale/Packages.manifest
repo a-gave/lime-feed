@@ -5,12 +5,12 @@ Source: /feed/packages/shared-state-async
 SourceName: shared-state-async
 License: AGPL-3.0-only
 Section: opt
-SourceDateEpoch: 1772662452
+SourceDateEpoch: 1772663915
 Maintainer: Asociación Civil Altermundi <info@altermundi.net>
 Architecture: arm_xscale
 Installed-Size: 225280
 Filename: shared-state-async_2024.05.13~db58e3d-r1_arm_xscale.ipk
-Size: 94310
-SHA256sum: a4578b6b84212bace7af8405abec26c76515b40cacabf478a2690ec6a9ad8f1c
+Size: 94317
+SHA256sum: 287768c0a9e23a988a7aed9944638f187a65cb0cbd41fba25fb99b8a6196a529
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

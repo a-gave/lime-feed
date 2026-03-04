@@ -6,7 +6,7 @@ Section: opt
 Architecture: armeb_xscale
 Installed-Size: 225280
 Filename: shared-state-async_2024.05.13~db58e3d-r1_armeb_xscale.ipk
-Size: 93903
-SHA256sum: af716e55a188b04e9e40de35733c26cdbc44ad2ce218e7246589e27776d320d9
+Size: 93857
+SHA256sum: 4a7a39f2da04ac00d60eb0f810f024d736972d1c6d55c0e9e8fc5dd2d9bb92ed
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

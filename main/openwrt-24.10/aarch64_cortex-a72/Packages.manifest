@@ -5,12 +5,12 @@ Source: /feed/packages/shared-state-async
 SourceName: shared-state-async
 License: AGPL-3.0-only
 Section: opt
-SourceDateEpoch: 1772662452
+SourceDateEpoch: 1772663915
 Maintainer: Asociación Civil Altermundi <info@altermundi.net>
 Architecture: aarch64_cortex-a72
 Installed-Size: 286720
 Filename: shared-state-async_2024.05.13~db58e3d-r1_aarch64_cortex-a72.ipk
-Size: 98657
-SHA256sum: 3e235bcd253ca3b4b34a4f38ee27a29616e16b1dd8a185a8ad71a94e61b3b5e3
+Size: 98670
+SHA256sum: 179af75d73e58581485df4a3dc851b4d86bb2ebcbca4070480d3d11df2597cd7
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 
