@@ -6,7 +6,7 @@ Section: opt
 Architecture: arm_cortex-a9_neon
 Installed-Size: 215040
 Filename: shared-state-async_2024.05.13~db58e3d-r1_arm_cortex-a9_neon.ipk
-Size: 92878
-SHA256sum: 361afe9c7b1dbb7cd5c5aa4728ff25cd911165376b5695ae5371cf8f00a5d629
+Size: 92729
+SHA256sum: e51fe562a4156ec52771980aa06266470aa42a4e43815127bc87331b1935aac9
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 

@@ -6,7 +6,7 @@ Section: opt
 Architecture: aarch64_cortex-a76
 Installed-Size: 286720
 Filename: shared-state-async_2024.05.13~db58e3d-r1_aarch64_cortex-a76.ipk
-Size: 98573
-SHA256sum: d4d62d9315571281250f166e1104974bf1b9ebf56fb6fb962ea98d02143ed441
+Size: 98657
+SHA256sum: 529cd055396f4b2730fa51c13b242126e156fee244158df7c08c64ce0221e21a
 Description:  shared-state re-written in C++20 and corotuines to handle information exchange between network nodes more efficiently.
 
