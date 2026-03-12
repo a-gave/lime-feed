@@ -1,468 +1,480 @@
 Package: profile-BattleMeshV17-workshop
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system, shared-state-network_nodes, shared-state-dnsmasq_servers, lime-docs, lime-proto-babeld, lime-proto-batadv, lime-proto-anygw, lime-hwd-openwrt-wan, shared-state, hotplug-initd-services, shared-state-babeld_hosts, shared-state-bat_hosts, shared-state-dnsmasq_hosts, shared-state-dnsmasq_leases, shared-state-nodes_and_links, check-date-http, lime-app, lime-hwd-ground-routing, lime-debug, babeld-auto-gw-mode, px5g-standalone
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-BattleMeshV17-workshop_26.071.07419~74ab66f_all.ipk
-Size: 1211
-SHA256sum: 3f296e39f749378aa8d405e41ce851ec6689c5b890947132e0ddfb3aec0d0cf6
+Filename: profile-BattleMeshV17-workshop_26.071.09291~05525c9_all.ipk
+Size: 1214
+SHA256sum: d89787ba011b30f1b26b023e514c3f839fbf4ece11ba59e322279ff9f61ee729
 Description:  Firmware to use in a workshop presenting LibreMesh in BattleMesh v17 in Sundhausen
 
 Package: profile-LibremeshTestBed-indoor_omnidirectional_dualband
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system, lime-docs-minimal, deferrable-reboot, lime-debug, lime-app, lime-hwd-openwrt-wan, lime-proto-anygw, lime-proto-babeld, lime-proto-batadv, shared-state, shared-state-babeld_hosts, shared-state-bat_hosts, shared-state-nodes_and_links, babeld-auto-gw-mode, batctl-default, check-date-http, lime-docs, lime-hwd-ground-routing, lime-debug
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-LibremeshTestBed-indoor_omnidirectional_dualband_26.071.07419~74ab66f_all.ipk
-Size: 2146
-SHA256sum: 72aae42c4c9d8ca4f4cfb35a2bbf773167d5bc64f4cbf0bfcb9a571a3af770e9
+Filename: profile-LibremeshTestBed-indoor_omnidirectional_dualband_26.071.09291~05525c9_all.ipk
+Size: 2148
+SHA256sum: ced1dd923423939659f72105b32a5515394e91138967b518fa7b39bcb83ca8f0
 Description:  Mesh and AP for Test Bed LibreMesh 2024 indoor omnidirectional dual band nodes
 
 Package: profile-LibremeshTestBed-outdoor_omnidirectional_dualband
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system, lime-docs-minimal, deferrable-reboot, lime-debug, lime-app, lime-hwd-openwrt-wan, lime-proto-anygw, lime-proto-babeld, lime-proto-batadv, shared-state, shared-state-babeld_hosts, shared-state-bat_hosts, shared-state-nodes_and_links, babeld-auto-gw-mode, batctl-default, check-date-http, lime-docs, lime-hwd-ground-routing, lime-debug
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-LibremeshTestBed-outdoor_omnidirectional_dualband_26.071.07419~74ab66f_all.ipk
-Size: 1971
-SHA256sum: ed030ce0b2adcdb5221c5936f1c4e3b254bb6384206027bf707bd174a33066fe
+Filename: profile-LibremeshTestBed-outdoor_omnidirectional_dualband_26.071.09291~05525c9_all.ipk
+Size: 1974
+SHA256sum: d9c3a1310e2ccc2c1949eee82063016ada41887c204c2388e1f8d24a90663006
 Description:  Mesh and AP for Test Bed LibreMesh 2024 indoor omnidirectional dual band nodes
 
 Package: profile-LibremeshTestBed-outdoor_sectorial_singleband
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system, lime-docs-minimal, deferrable-reboot, lime-debug, lime-app, lime-hwd-openwrt-wan, lime-proto-anygw, lime-proto-babeld, lime-proto-batadv, shared-state, shared-state-babeld_hosts, shared-state-bat_hosts, shared-state-nodes_and_links, babeld-auto-gw-mode, batctl-default, check-date-http, lime-docs, lime-hwd-ground-routing, lime-debug
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-LibremeshTestBed-outdoor_sectorial_singleband_26.071.07419~74ab66f_all.ipk
-Size: 2021
-SHA256sum: 4c91be0ca441f24e20bf7e843da496d9442b223b0452ee5732a860ca575b5121
+Filename: profile-LibremeshTestBed-outdoor_sectorial_singleband_26.071.09291~05525c9_all.ipk
+Size: 2022
+SHA256sum: cac37fb38b457c31c72211a45e732522a1d55d1f0378913e515c8099c6cc938b
 Description:  Mesh and AP for Test Bed LibreMesh 2024 indoor omnidirectional dual band nodes
 
 Package: profile-antennine.org-an-8-64
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system, batctl-default, babeld-auto-gw-mode, check-date-http, lime-docs-minimal, lime-hwd-openwrt-wan, lime-proto-anygw, lime-proto-babeld, lime-proto-batadv, shared-state, shared-state-babeld_hosts, shared-state-nodes_and_links
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-antennine.org-an-8-64_26.071.07419~74ab66f_all.ipk
-Size: 1793
-SHA256sum: bb924355566a1d3e2a7c191cfa350ee88dbff24d9fd45204f51693614ff93592
+Filename: profile-antennine.org-an-8-64_26.071.09291~05525c9_all.ipk
+Size: 1796
+SHA256sum: 792a8e672f5d81d28eefee284301f3581d2ec7c33bc55a1e0527211cd07bc274
 Description:  Generic metapackage for 8MB flash and/or 64MB RAM devices
 
 Package: profile-antennine.org-an-ca-bundle
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-antennine.org-an-ca-bundle_26.071.07419~74ab66f_all.ipk
+Filename: profile-antennine.org-an-ca-bundle_26.071.09291~05525c9_all.ipk
 Size: 999
-SHA256sum: 9c5a61c2d7b7dbce3a1511dd908f061a814365c403c98053b8e03f7d46471be6
+SHA256sum: fa90cda77c41b1bd777232ec7af958390825aff78f7336d0cfe6077d68fb3404
 Description:  Profile antennine.org an-ca-bundle
 
+Package: profile-antennine.org-an-generic-8-64
+Version: 26.071.09291~05525c9
+Depends: libc, lime-system, profile-antennine.org-an-ca-bundle, profile-antennine.org-an-generic, profile-antennine.org-an-lime-owut, profile-antennine.org-an-metrics, profile-antennine.org-an-8-64
+Section: lime
+URL: https://github.com/libremesh/network-profiles/
+Architecture: all
+Installed-Size: 10240
+Filename: profile-antennine.org-an-generic-8-64_26.071.09291~05525c9_all.ipk
+Size: 927
+SHA256sum: e1bc0d8b3980215f52edbda57bb689cb657aa3a32dd39912c73c464074137b2f
+Description:  Generic metapackage for 8MB flash and/or 64MB RAM devices with lime files, pubkeys and metrics, and eff ca-cert
+
 Package: profile-antennine.org-an-generic
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-antennine.org-an-generic_26.071.07419~74ab66f_all.ipk
-Size: 2963
-SHA256sum: 5c8bcec13988927caebb4a21696327955eb40150391905fbac72d41620b3b974
+Filename: profile-antennine.org-an-generic_26.071.09291~05525c9_all.ipk
+Size: 2966
+SHA256sum: dbcc3b95ad661587e274db43e2f7c3463839783d1dc40adc8794bee12eaf27dd
 Description:  Generic package with authorized_keys and lime files
 
 Package: profile-antennine.org-an-lime-owut
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system, owut
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-antennine.org-an-lime-owut_26.071.07419~74ab66f_all.ipk
-Size: 2118
-SHA256sum: 5980464ccec450e71683da6a964ac72ea5cba17a19890c3c71827185249441f9
+Filename: profile-antennine.org-an-lime-owut_26.071.09291~05525c9_all.ipk
+Size: 2124
+SHA256sum: 0202a777487bf8beae74006ae48b26d2e2897112a58942edb115e4e7e0783460
 Description:  lime-owut
 
 Package: profile-antennine.org-an-metrics
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system, coreutils-base64, prometheus-node-exporter-lua, prometheus-node-exporter-lua-openwrt, prometheus-node-exporter-lua-wifi, prometheus-node-exporter-lua-wifi_stations, prometheus-node-exporter-lua-wifi-stations-extra, prometheus-node-exporter-lua-location-latlon
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-antennine.org-an-metrics_26.071.07419~74ab66f_all.ipk
-Size: 1603
-SHA256sum: 3c4311b97ebf75e2d7262cff2e6189bf444e7fbcc30af5104eba92766968ae82
+Filename: profile-antennine.org-an-metrics_26.071.09291~05525c9_all.ipk
+Size: 1599
+SHA256sum: d914c507164d39f4f42aad31f1e0cff634ed0641dcde44c7c294501a21087ede
 Description:  Prometheus collectors and script to push to a pushgateway server
 
 Package: profile-calafou-indoor2
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system, deferrable-reboot, safe-reboot, shared-state-network_nodes, shared-state-dnsmasq_servers, lime-docs, lime-proto-babeld, lime-proto-batadv, lime-proto-anygw, lime-proto-wan, shared-state, hotplug-initd-services, shared-state-babeld_hosts, shared-state-bat_hosts, shared-state-dnsmasq_hosts, shared-state-dnsmasq_leases, shared-state-nodes_and_links, check-date-http, lime-app, lime-hwd-ground-routing, lime-debug, babeld-auto-gw-mode, prometheus-node-exporter-lua, prometheus-node-exporter-lua-openwrt, prometheus-node-exporter-lua-wifi_stations, prometheus-node-exporter-lua-wifi-stations-extra, prometheus-node-exporter-lua-wifi-survey, prometheus-node-exporter-lua-wifi-params, prometheus-node-exporter-lua-location-latlon, prometheus-node-push-influx
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-calafou-indoor2_26.071.07419~74ab66f_all.ipk
-Size: 1931
-SHA256sum: 454d123c368c0e610154a9d26f3b877eccf9a497f4d160a10b6f977a62634806
+Filename: profile-calafou-indoor2_26.071.09291~05525c9_all.ipk
+Size: 1928
+SHA256sum: a84072ce6ef3a3f6abae43d4a9e0c9bef5df1c7285091af816a5a8c317f25b1e
 Description:  Encryptable mesh and AP for Calafou indoor nodes, second node in rooms with two nodes, 5 GHz channel clashing with the outdoor and gateway nodes
 
 Package: profile-calafou-indoor
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system, deferrable-reboot, safe-reboot, shared-state-network_nodes, shared-state-dnsmasq_servers, lime-docs, lime-proto-babeld, lime-proto-batadv, lime-proto-anygw, lime-hwd-openwrt-wan, shared-state, hotplug-initd-services, shared-state-babeld_hosts, shared-state-bat_hosts, shared-state-dnsmasq_hosts, shared-state-dnsmasq_leases, shared-state-nodes_and_links, check-date-http, lime-app, lime-hwd-ground-routing, lime-debug, babeld-auto-gw-mode, prometheus-node-exporter-lua, prometheus-node-exporter-lua-openwrt, prometheus-node-exporter-lua-wifi_stations, prometheus-node-exporter-lua-wifi-stations-extra, prometheus-node-exporter-lua-wifi-survey, prometheus-node-exporter-lua-wifi-params, prometheus-node-exporter-lua-location-latlon, prometheus-node-push-influx
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-calafou-indoor_26.071.07419~74ab66f_all.ipk
-Size: 1887
-SHA256sum: 81840b8e350e65ecd014dd704cfe8d369c243cc27cf518faa5a5c76263936cf4
+Filename: profile-calafou-indoor_26.071.09291~05525c9_all.ipk
+Size: 1871
+SHA256sum: 8e4a2416aeaa0d7c91cdb779036dc55ea55a5c8ca56ea732eee90a365b2acfae
 Description:  Encryptable mesh and AP for Calafou indoor nodes
 
 Package: profile-calafou-outdoor_gateway
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system, deferrable-reboot, safe-reboot, shared-state-network_nodes, shared-state-dnsmasq_servers, lime-docs, lime-proto-babeld, lime-proto-batadv, lime-proto-anygw, lime-hwd-openwrt-wan, shared-state, hotplug-initd-services, shared-state-babeld_hosts, shared-state-bat_hosts, shared-state-dnsmasq_hosts, shared-state-dnsmasq_leases, shared-state-nodes_and_links, check-date-http, lime-app, lime-hwd-ground-routing, lime-debug, babeld-auto-gw-mode, prometheus-node-exporter-lua, prometheus-node-exporter-lua-openwrt, prometheus-node-exporter-lua-wifi_stations, prometheus-node-exporter-lua-wifi-stations-extra, prometheus-node-exporter-lua-wifi-survey, prometheus-node-exporter-lua-wifi-params, prometheus-node-exporter-lua-location-latlon, prometheus-node-push-influx
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-calafou-outdoor_gateway_26.071.07419~74ab66f_all.ipk
-Size: 1894
-SHA256sum: 3c597ecf20124bc56bb22f5279a3f40ded7eb097ef9cdb9ec51eea640737ca1d
+Filename: profile-calafou-outdoor_gateway_26.071.09291~05525c9_all.ipk
+Size: 1897
+SHA256sum: 66b2132ac24fbb22f2d6a5d9626414158a7554e21d9cf1696d5946c863c85be9
 Description:  Encryptable mesh and AP for Calafou outdoor node used as a gateway
 
 Package: profile-calafou-outdoor_nongateway
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system, deferrable-reboot, safe-reboot, shared-state-network_nodes, shared-state-dnsmasq_servers, lime-docs, lime-proto-babeld, lime-proto-batadv, lime-proto-anygw, shared-state, hotplug-initd-services, shared-state-babeld_hosts, shared-state-bat_hosts, shared-state-dnsmasq_hosts, shared-state-dnsmasq_leases, shared-state-nodes_and_links, check-date-http, lime-app, lime-hwd-ground-routing, lime-debug, prometheus-node-exporter-lua, prometheus-node-exporter-lua-openwrt, prometheus-node-exporter-lua-wifi_stations, prometheus-node-exporter-lua-wifi-stations-extra, prometheus-node-exporter-lua-wifi-survey, prometheus-node-exporter-lua-wifi-params, prometheus-node-exporter-lua-location-latlon, prometheus-node-push-influx
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-calafou-outdoor_nongateway_26.071.07419~74ab66f_all.ipk
-Size: 1854
-SHA256sum: 2903ab527a43e9b275c16fcb2875b8ebdd0d99b70e48a90dbd0818bdf174d491
+Filename: profile-calafou-outdoor_nongateway_26.071.09291~05525c9_all.ipk
+Size: 1855
+SHA256sum: 197d7b736e5da7ea1e45fd5b8690ddbd52f89214a8f2ff13c51c5d511403b591
 Description:  Encryptable mesh and AP for Calafou outdoor nodes
 
 Package: profile-canodrom.barcelona-simple
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 30720
-Filename: profile-canodrom.barcelona-simple_26.071.07419~74ab66f_all.ipk
-Size: 2867
-SHA256sum: 532e16053f35c2fbdfeeffbf56db728f83c827031ef637916124aa51b5ee4310
+Filename: profile-canodrom.barcelona-simple_26.071.09291~05525c9_all.ipk
+Size: 2877
+SHA256sum: 693091ce73df845a527c6a1431177831138691f5f8c16e6ab2a56d3973bda44a
 Description:  Simple profile for experimenting with mesh networks at Canodrom in Barcelona
 
 Package: profile-es.hackmeeting.org-hm2019generic
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system, prometheus-node-exporter-lua, prometheus-node-exporter-lua-wifi, prometheus-node-exporter-lua-wifi_stations, prometheus-node-exporter-lua-openwrt, lime-system, lime-proto-babeld, lime-proto-batadv, lime-proto-anygw, lime-proto-wan, lime-hwd-openwrt-wan, shared-state, hotplug-initd-services, shared-state-babeld_hosts, shared-state-bat_hosts, shared-state-dnsmasq_hosts, shared-state-dnsmasq_leases, shared-state-nodes_and_links, check-date-http, lime-app, lime-docs-minimal, first-boot-wizard, lime-docs, lime-hwd-ground-routing, lime-debug, ubus-lime-batman-adv, pirania, shared-state-pirania, shared-state-persist
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-es.hackmeeting.org-hm2019generic_26.071.07419~74ab66f_all.ipk
-Size: 1843
-SHA256sum: ba7648e1847fcacae5f67164b7d1a7e3a7c23a8bd67ca3d4525caab68426c02f
+Filename: profile-es.hackmeeting.org-hm2019generic_26.071.09291~05525c9_all.ipk
+Size: 1845
+SHA256sum: 7a2ea9d592f3ce433a4f9c022afe2b73ff3a9682883d5a3b189ada62d85bb71a
 Description:  Network used for Iberic Hackmeeting 2019 in Errekaleor
 
 Package: profile-freifunk-80211s-sae-batadv-only
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system, wpad-mesh-wolfssl, lime-proto-batadv, lime-proto-anygw, shared-state, shared-state-bat_hosts, shared-state-dnsmasq_hosts, shared-state-dnsmasq_leases, wifi-unstuck-wa
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-freifunk-80211s-sae-batadv-only_26.071.07419~74ab66f_all.ipk
-Size: 1690
-SHA256sum: 1fe1f73b9d80cbe6e56ccab65635aadab3a917b8fb1fccfe7899f01e11dcb3c4
+Filename: profile-freifunk-80211s-sae-batadv-only_26.071.09291~05525c9_all.ipk
+Size: 1682
+SHA256sum: f0bdea3e5572c38cbebe89ffb178c185de7a7873a97b2348ac7c125110233a0c
 Description:  Use 802.11s with SAE for mesh, route with batman-adv only
 
 Package: profile-freifunk-80211s-sae-bmx7-batadv
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system, wpad-mesh-wolfssl, wpa-cli, bmx7, bmx7-iwinfo, bmx7-json, bmx7-sms, bmx7-table, bmx7-tun, bmx7-uci-config, lime-proto-batadv, bmx7-auto-gw-mode, lime-proto-bmx7, lime-proto-anygw, shared-state, shared-state-dnsmasq_hosts, shared-state-dnsmasq_leases, shared-state-bat_hosts, wifi-unstuck-wa
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-freifunk-80211s-sae-bmx7-batadv_26.071.07419~74ab66f_all.ipk
-Size: 1761
-SHA256sum: 976fe7a2c85ca9ef4f859c35f33bec1639ffa4fb9b73d6685a1d17eb1879faef
+Filename: profile-freifunk-80211s-sae-bmx7-batadv_26.071.09291~05525c9_all.ipk
+Size: 1756
+SHA256sum: cf96414f05e7e13db0d8d3051a7432373ba31e29a332dd8617845591b6ecd152
 Description:  Use 802.11s with SAE for mesh, route with bmx7 and batman-adv
 
 Package: profile-freifunk-80211s-sae-bmx7-only
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system, wpad-mesh-wolfssl, wpa-cli, bmx7, bmx7-iwinfo, bmx7-json, bmx7-sms, bmx7-table, bmx7-tun, bmx7-uci-config, bmx7-auto-gw-mode, lime-proto-bmx7, lime-proto-anygw, shared-state, shared-state-dnsmasq_hosts, shared-state-dnsmasq_leases, wifi-unstuck-wa
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-freifunk-80211s-sae-bmx7-only_26.071.07419~74ab66f_all.ipk
-Size: 1737
-SHA256sum: 57323b68982f9de1e8b7c4015c1c89c2a6c4f6e7a04826f15fffdfaccef6b043
+Filename: profile-freifunk-80211s-sae-bmx7-only_26.071.09291~05525c9_all.ipk
+Size: 1728
+SHA256sum: e262eafc9e09f1cc21a33a9b791454704689bc963297d6468ed30fd63f65c8bf
 Description:  Use 802.11s with SAE for mesh, route with bmx7 only
 
 Package: profile-ilario-testing-202501-NS-LoCo-M2-XM-setup1
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-ilario-testing-202501-NS-LoCo-M2-XM-setup1_26.071.07419~74ab66f_all.ipk
-Size: 1013
-SHA256sum: 1c9039f7a3892b1fb7b10fcb96efa1191f40c7786db74294752e07d22aad6b9f
+Filename: profile-ilario-testing-202501-NS-LoCo-M2-XM-setup1_26.071.09291~05525c9_all.ipk
+Size: 1002
+SHA256sum: 3334102ddc2c6cba77911c56a2877ba348ac37263f8f4837804f85bca1489c65
 Description:  Profile for testing release 2024.1
 
 Package: profile-ilario-testing-202501-NS-LoCo-M2-XM-setup2and3a
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-ilario-testing-202501-NS-LoCo-M2-XM-setup2and3a_26.071.07419~74ab66f_all.ipk
-Size: 974
-SHA256sum: ec5c541ebf62f6b89bb1d8148154117dde2d2419230244e069a260d3216c40f4
+Filename: profile-ilario-testing-202501-NS-LoCo-M2-XM-setup2and3a_26.071.09291~05525c9_all.ipk
+Size: 972
+SHA256sum: 0f646081efddd15df1d4e1e8549a6d78deca831ec2f681deabaf7f6b2adb6ea0
 Description:  Profile for testing release 2024.1
 
 Package: profile-ilario-testing-202501-NS-LoCo-M2-XM-setup3b
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-ilario-testing-202501-NS-LoCo-M2-XM-setup3b_26.071.07419~74ab66f_all.ipk
-Size: 1033
-SHA256sum: e463f0e4f8878fe8c4fe3989923692250bf39f01de942eb8786576c25dc11e09
+Filename: profile-ilario-testing-202501-NS-LoCo-M2-XM-setup3b_26.071.09291~05525c9_all.ipk
+Size: 1028
+SHA256sum: b7c7fca939ad8e363f431807a711107724e2e20fb316b68c82c7f1b9f147d066
 Description:  Profile for testing release 2024.1
 
 Package: profile-ilario-testing-202501-PA1200-setup1a
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-ilario-testing-202501-PA1200-setup1a_26.071.07419~74ab66f_all.ipk
-Size: 964
-SHA256sum: f10c782bbd2564460178789dd25f8ff1b224d536bc0c2f214ee47a3c3f623284
+Filename: profile-ilario-testing-202501-PA1200-setup1a_26.071.09291~05525c9_all.ipk
+Size: 963
+SHA256sum: 5abf3aae1c37eb4feaa90ab39542bca8ebde8f6fdc30310d226ac8f3afa45f89
 Description:  Profile for testing release 2024.1
 
 Package: profile-ilario-testing-202501-PA1200-setup1b
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-ilario-testing-202501-PA1200-setup1b_26.071.07419~74ab66f_all.ipk
-Size: 1032
-SHA256sum: 7567408e3bacfe3481d79c76b860f8f0d50eb4211cce720da8fc810c08d0b6cc
+Filename: profile-ilario-testing-202501-PA1200-setup1b_26.071.09291~05525c9_all.ipk
+Size: 1029
+SHA256sum: a38a07f5b726373fe72772ca79ab5553a3eb31f21d9322f46fc7b4454f498f55
 Description:  Profile for testing release 2024.1
 
 Package: profile-ilario-testing-202501-PA1200-setup2
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-ilario-testing-202501-PA1200-setup2_26.071.07419~74ab66f_all.ipk
-Size: 964
-SHA256sum: e007caef48b065deb7b265f3b696f8dc5bfc247b8c9c032329b0fb8ffa9a88e0
+Filename: profile-ilario-testing-202501-PA1200-setup2_26.071.09291~05525c9_all.ipk
+Size: 961
+SHA256sum: 48809408e01ed4367304f9f6b7c9c0a5100ea57623134ab261f1c8ecfa3303ef
 Description:  Profile for testing release 2024.1
 
 Package: profile-ilario-testing-202501-PA1200-setup3
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-ilario-testing-202501-PA1200-setup3_26.071.07419~74ab66f_all.ipk
-Size: 962
-SHA256sum: e34080ee06d8eb06a6539ee7be8ead051a7b2b0bc96ee4051006e889fd26b844
+Filename: profile-ilario-testing-202501-PA1200-setup3_26.071.09291~05525c9_all.ipk
+Size: 961
+SHA256sum: 98aa17100a5b3776553ea144294ac853e010d1fa5e4df90e5b697214677238e1
 Description:  Profile for testing release 2024.1
 
 Package: profile-ilario-testing-202501-WDR3600-setup1and3a
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-ilario-testing-202501-WDR3600-setup1and3a_26.071.07419~74ab66f_all.ipk
-Size: 973
-SHA256sum: 133ae1d9ec1af0b0030e3275b9efa03f0f37b6864f95ab42f6a0b8f7dbcf7601
+Filename: profile-ilario-testing-202501-WDR3600-setup1and3a_26.071.09291~05525c9_all.ipk
+Size: 971
+SHA256sum: 84824e0717b1b20157ad90a80a9a5ef58723ea078ec66ff174b62845a2e463d5
 Description:  Profile for testing release 2024.1
 
 Package: profile-ilario-testing-202501-WDR3600-setup2
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-ilario-testing-202501-WDR3600-setup2_26.071.07419~74ab66f_all.ipk
-Size: 963
-SHA256sum: 18783b3c7ee7ec2aba257cb590abefcef3f2387c0cabedaa475f55c5aa7731ef
+Filename: profile-ilario-testing-202501-WDR3600-setup2_26.071.09291~05525c9_all.ipk
+Size: 966
+SHA256sum: 335ac1165c3f094a70a2121d4a44384f42cff9ac0230f6d4ad697974df9675ab
 Description:  Profile for testing release 2024.1
 
 Package: profile-ilario-testing-202501-WDR3600-setup3b
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-ilario-testing-202501-WDR3600-setup3b_26.071.07419~74ab66f_all.ipk
-Size: 1031
-SHA256sum: b480cffa6390e16c76151c194470c83c92f35e107775c8fdf347aa8a093e3542
+Filename: profile-ilario-testing-202501-WDR3600-setup3b_26.071.09291~05525c9_all.ipk
+Size: 1034
+SHA256sum: 7451a8b9457617567a12053d72e5d7023bd4acf673b78e79b37f3b1eaa8480d0
 Description:  Profile for testing release 2024.1
 
 Package: profile-ilario-testing-202501-YouHua_WR1200JS-setup1a
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-ilario-testing-202501-YouHua_WR1200JS-setup1a_26.071.07419~74ab66f_all.ipk
-Size: 982
-SHA256sum: cd40f45746230e5c7e388f8939633a653611fd0b4c2740115555371839511639
+Filename: profile-ilario-testing-202501-YouHua_WR1200JS-setup1a_26.071.09291~05525c9_all.ipk
+Size: 979
+SHA256sum: 18315d4d660d995fc400651ad08b1e521d5d2cd75988078a2c0b9211252ae725
 Description:  Profile for testing release 2024.1
 
 Package: profile-ilario-testing-202501-YouHua_WR1200JS-setup1b
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-ilario-testing-202501-YouHua_WR1200JS-setup1b_26.071.07419~74ab66f_all.ipk
+Filename: profile-ilario-testing-202501-YouHua_WR1200JS-setup1b_26.071.09291~05525c9_all.ipk
 Size: 1045
-SHA256sum: aaf9c29451b890a2e3383d3d3e0c300249c3ed521f04e4222788e53f1e090e7e
+SHA256sum: 0b7132bea95ccfdbc9cd4aa99e1c6e2b5f86bda0dc484ae4fa5ecbecc6961e41
 Description:  Profile for testing release 2024.1
 
 Package: profile-ilario-testing-202501-YouHua_WR1200JS-setup2a
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-ilario-testing-202501-YouHua_WR1200JS-setup2a_26.071.07419~74ab66f_all.ipk
-Size: 982
-SHA256sum: f3ab4f8e3e8e295daa433aeb1a534ba1ee0139e60fcfc9f2288ae63e121fefc1
+Filename: profile-ilario-testing-202501-YouHua_WR1200JS-setup2a_26.071.09291~05525c9_all.ipk
+Size: 980
+SHA256sum: ea73c61e1b8dc7ad3f74c1c704a2edfa9a52d6dd0e2d4e2dd2328b9bb744c8d5
 Description:  Profile for testing release 2024.1
 
 Package: profile-ilario-testing-202501-YouHua_WR1200JS-setup2b
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-ilario-testing-202501-YouHua_WR1200JS-setup2b_26.071.07419~74ab66f_all.ipk
-Size: 1047
-SHA256sum: dc53735932d92f611cdfb23875cbc8eee2f859a55ba698dfb4522cf8b2224a68
+Filename: profile-ilario-testing-202501-YouHua_WR1200JS-setup2b_26.071.09291~05525c9_all.ipk
+Size: 1045
+SHA256sum: 57ec7c7a29fb2f3b64f64d70d86e542eaa58730e65b899c22d87c82876f23362
 Description:  Profile for testing release 2024.1
 
 Package: profile-ilario-testing-202501-YouHua_WR1200JS-setup3
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-ilario-testing-202501-YouHua_WR1200JS-setup3_26.071.07419~74ab66f_all.ipk
-Size: 980
-SHA256sum: 44b7369d1f25211738fd5c345b3b77f9e2766bd6fd072fe060a6c35831f562ab
+Filename: profile-ilario-testing-202501-YouHua_WR1200JS-setup3_26.071.09291~05525c9_all.ipk
+Size: 976
+SHA256sum: efe0ac08a79a1c59ca766516ae707a4413a63c832b88420ee2a6ed8d658de37a
 Description:  Profile for testing release 2024.1
 
 Package: profile-libremesh-adhoc
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-libremesh-adhoc_26.071.07419~74ab66f_all.ipk
-Size: 1030
-SHA256sum: 1baf943ff856b889c548a45e4b0ed53a36eaedd78775b58868cbafc5f13a5286
+Filename: profile-libremesh-adhoc_26.071.09291~05525c9_all.ipk
+Size: 1031
+SHA256sum: 9aa8174729b0cddf95e3e0ec996c18b8dbad25013d2966d9db8fafac5a3903cf
 Description:  Profile libremesh adhoc
 
 Package: profile-libremesh-default
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-libremesh-default_26.071.07419~74ab66f_all.ipk
-Size: 1955
-SHA256sum: 521f2a68d1306c885b4488c4a5ce03cea5c5d9d52f3c4120ea7ffb6948c9b237
+Filename: profile-libremesh-default_26.071.09291~05525c9_all.ipk
+Size: 1957
+SHA256sum: f48c7577a7e7a625358571d3b24f4fde40929e7d4cdc10d9046ce09143d42ba6
 Description:  Default LibreMesh configuration
 
 Package: profile-libremesh-encrypt-11s
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system, wpad-mesh-openssl
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-libremesh-encrypt-11s_26.071.07419~74ab66f_all.ipk
-Size: 1019
-SHA256sum: 654a3ea7e307464d4727c45c01b9105a6f0b0564fde09946673799e3de2161e5
+Filename: profile-libremesh-encrypt-11s_26.071.09291~05525c9_all.ipk
+Size: 1021
+SHA256sum: a1a919bfd88539db9ec16593557f32e05da89550e18ccbe065b06e46f4589d8e
 Description:  Use 802.11s for mesh and WPA3 encryption
 
 Package: profile-libremesh-suggested-packages-tiny
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system, lime-hwd-openwrt-wan, lime-proto-anygw, lime-proto-babeld, lime-proto-batadv, shared-state, shared-state-babeld_hosts, lime-docs-minimal, babeld-auto-gw-mode
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-libremesh-suggested-packages-tiny_26.071.07419~74ab66f_all.ipk
-Size: 1020
-SHA256sum: 6206897a50944f325a39dbe2646502faea998da8f84d2123c9cadc94e334b155
+Filename: profile-libremesh-suggested-packages-tiny_26.071.09291~05525c9_all.ipk
+Size: 1018
+SHA256sum: 5e249fc2ee0095ca46a58c95ddcd91cdf64387dd14d022a6b55ac6582ea85fa2
 Description:  Tiny version of packages officially suggested on the LibreMesh.org website. Intended for 4/32 devices: suited for devices with ≤4MB Flash up to openwrt 19.07; suited for devices with ≤32MB RAM up to openwrt 22.03
 
 Package: profile-libremesh-suggested-packages
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system, lime-docs-minimal, lime-app, lime-hwd-openwrt-wan, lime-proto-anygw, lime-proto-babeld, lime-proto-batadv, shared-state, shared-state-babeld_hosts, shared-state-bat_hosts, shared-state-nodes_and_links, babeld-auto-gw-mode, batctl-default, check-date-http, lime-docs, lime-hwd-ground-routing, lime-debug
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 10240
-Filename: profile-libremesh-suggested-packages_26.071.07419~74ab66f_all.ipk
+Filename: profile-libremesh-suggested-packages_26.071.09291~05525c9_all.ipk
 Size: 988
-SHA256sum: 2972de4d52009c26e7c5300882856da802066b5882fc2b175f2be990e7e48b70
+SHA256sum: 2a2c80954da9025b285c92e5115135bba6c4ab73873e6565d2726543f5fc3cf3
 Description:  Packages officially suggested on the LibreMesh.org website
 
 Package: profile-valsamoggia.ninux.org-vs-ninux-generic
-Version: 26.071.07419~74ab66f
+Version: 26.071.09291~05525c9
 Depends: libc, lime-system, prometheus-node-exporter-lua, prometheus-node-exporter-lua-wifi, prometheus-node-exporter-lua-wifi_stations, prometheus-node-exporter-lua-openwrt, lime-proto-babeld, lime-proto-batadv, lime-proto-anygw, lime-proto-wan, lime-hwd-openwrt-wan, shared-state, hotplug-initd-services, shared-state-babeld_hosts, shared-state-bat_hosts, shared-state-dnsmasq_hosts, shared-state-dnsmasq_leases, shared-state-nodes_and_links, check-date-http, lime-app, lime-hwd-ground-routing, lime-debug, luci
 Section: lime
 URL: https://github.com/libremesh/network-profiles/
 Architecture: all
 Installed-Size: 20480
-Filename: profile-valsamoggia.ninux.org-vs-ninux-generic_26.071.07419~74ab66f_all.ipk
-Size: 3437
-SHA256sum: 1643caf88070ca392af6e9605386a01293868de1aa90608660052155dd2c1bef
+Filename: profile-valsamoggia.ninux.org-vs-ninux-generic_26.071.09291~05525c9_all.ipk
+Size: 3435
+SHA256sum: d0c0af000887774bc5c781867a06c375bdc651c1dfe444a0f918257db5cd5b3a
 Description:  Generic valsamoggia configuration
 
